@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MdEmail } from 'react-icons/md';
 
-const EmailCopyIcon = ({ email }) => {
+const EmailCopyIcon = ({ email, colour }) => {
   const [isCopied, setIsCopied] = useState(false);
   const [showTooltip, setShowTooltip] = useState(false);
 
@@ -69,7 +69,7 @@ const EmailCopyIcon = ({ email }) => {
         }}
         aria-label={`Copy email address: ${email}`}
       >
-        <MdEmail size={26} color="#2f7657" />
+        <MdEmail size={26} color={colour} />
       </button>
       {showTooltip && (
         <div style={tooltipStyles}>

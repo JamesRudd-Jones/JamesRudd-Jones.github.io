@@ -35,12 +35,12 @@ const Navbar = () => {
         <li style={styles.navItem}>
           <Link to="/publications" style={styles.navLink}>PUBLICATIONS</Link>
         </li>
-        <li style={styles.navItem}>
+        {/* <li style={styles.navItem}>
           <Link to="/talks" style={styles.navLink}>TALKS</Link>
         </li>
         <li style={styles.navItem}>
           <Link to="/blog" style={styles.navLink}>BLOG</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

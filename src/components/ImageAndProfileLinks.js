@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import EmailCopyIcon from './EmailCopyIcon';
 
-const LeftSidebar = () => {
+const ImageAndProfileLinks = () => {
   const styles = {
     leftSection: {
       flex: 0.3, // Adjust the ratio
@@ -55,10 +55,10 @@ const LeftSidebar = () => {
         {/* <a href="https://scholar.google.com/citations?user=Ox5qME4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGoogleScholar} />
         </a> */}
-        <EmailCopyIcon email={myEmail} color={Iconcolour} />
+        <EmailCopyIcon email={myEmail} colour={Iconcolour} />
       </div>
     </div>
   );
 };
 
-export default LeftSidebar;
+export default ImageAndProfileLinks;
