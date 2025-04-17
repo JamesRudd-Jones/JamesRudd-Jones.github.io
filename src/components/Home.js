@@ -80,8 +80,14 @@ const Home = () => {
           <p style={styles.largerFont}>My main focus is on Reinforcement Learning for non-linear dynamical systems particularly focusing on chaotic dynamics, but I am generally interested in decision making under uncertainty 
               within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). 
               <br></br> <br></br> 
+              As an avid sailor I am also greatly interested in the use of Machine Learning for the maritime industry, especially high performance sailing 
+              such as the America's Cup. This domain highlights many challenges in the use of Machine Learning due to the heavily stochastic and non-linear 
+              nature of the wind and waves. As well as difficulty optimising when dealing with heavily confounded multi-objectives such as light wind versus heavy wind performance. 
+              <br></br> <br></br> 
               Further, I also explore applications of ML for environmental and sustainable uses such as 
               the prediction of Forest Succession. 
+              <br></br> <br></br> 
+              Please reach out for discussions and/or collaborations in any of these areas!
           </p>
 
         {featuredPublications.length > 0 && (
@@ -97,7 +103,7 @@ const Home = () => {
           </div>
         )}
 
-        <WorkExperience />
+        {/* <WorkExperience /> */}
         <Education />
         {/* <Hobbies /> */}
       </div>
