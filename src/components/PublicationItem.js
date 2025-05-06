@@ -11,8 +11,8 @@ const PublicationItem = ({ publication, highlightName }) => {
     },
     imageContainer: {
       flexShrink: 0,
-      width: '200px',
-      height: '110px', // Ensure a fixed height
+      width: '240px',
+      height: '140px', // Ensure a fixed height
     },
     image: {
       width: '100%',

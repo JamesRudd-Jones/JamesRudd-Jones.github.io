@@ -4,10 +4,12 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Publications from './components/Publications';
+import Packages from './components/Packages';
 import Talks from './components/Talks';
 import Blog from './components/Blog';
 import backgroundImage from './assets/images/background_image.jpg';
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
+import {Helmet} from "react-helmet"; 
 
 function App() {
   const MaxWidthPage = "1400px"; // Set the maximum width for the page
@@ -21,7 +23,7 @@ function App() {
       left: 0,
       width: '100%',
       height: '100%',
-      backgroundColor: '#333', // Choose your desired background color
+      backgroundColor: 'rgba(240, 240, 240, 1.0)', // Choose your desired background color
       alignItems: 'center',
     },  
     navbarContainer: {
@@ -49,7 +51,7 @@ function App() {
     },
     overlay: {
       position: 'relative',
-      top: '0px',
+      top: '30px',
       width: PercentDiffMiddle,
       backgroundColor: 'rgba(255, 255, 255, 0.8)',
       minHeight: "100vh",
@@ -79,6 +81,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} /> 
               <Route path="/publications" element={<Publications />} />
+              <Route path="/packages" element={<Packages />} />
               {/* <Route path="/talks" element={<Talks />} /> */}
               {/* <Route path="/blog" element={<Blog />} /> */}
             </Routes>

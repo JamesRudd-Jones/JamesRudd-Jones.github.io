@@ -2,10 +2,10 @@
 export const allPublications = [
         {
           id: '1',
-          title: 'Multi-Agent Reinforcement Learning Simulation for Environmental Policy Syntehsis',
+          title: 'Multi-Agent Reinforcement Learning Simulation for Environmental Policy Synthesis',
           authors: 'James Rudd-Jones, Mirco Musolesi, María Pérez-Ortiz',
           conference: "24th International Conference on Autonomous Agents and Multiagent Systems Blue Sky Ideas Track (AAMAS'2025)",
-          // paperLink: "#",
+          paperLink: "https://arxiv.org/abs/2504.12777",
           image: require('../images/aamas_paper_image.png'), 
         },
         {

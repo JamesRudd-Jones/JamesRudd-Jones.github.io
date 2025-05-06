@@ -21,12 +21,14 @@ const Home = () => {
   const styles = {
     mainContent: {
       display: 'flex',
+      borderBottom: '1px solid #aaa',
     },
     leftSection: {
       flex: 0.35,
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'flex-start',
+      marginBottom: '-40px',
     },
     rightSection: {
       flex: 0.6,
@@ -38,17 +40,25 @@ const Home = () => {
       flexDirection: 'column',
       alignItems: 'flex-start',
     },
+    indSection: {
+      paddingTop: '20px', 
+      paddingBottom: '20px',
+      borderBottom: '1px solid #aaa',
+    },
+    lastSection: {
+      paddingTop: '20px', 
+    },
     selectedPublicationsSection: {
       marginTop: '0px',
-      listStyleType: 'none',
+      listStyleType: 'none'
     },
     aboutMe: {
-      marginBottom: '20px',
-      borderBottom: '1px solid #eee',
-      paddingBottom: '20px',
+      // marginBottom: '20px',
+      // borderBottom: '1px solid #eee',
+      // paddingBottom: '20px',
     },
     largerFont: {
-      fontSize: '18px'
+      fontSize: '1.1em'
     }
     }
 
@@ -76,32 +86,36 @@ const Home = () => {
       </div>
 
       <div style={styles.remainderSection}>
-        <h1>Research Interests</h1>
-          <p style={styles.largerFont}>My main focus is on Reinforcement Learning for non-linear dynamical systems particularly focusing on chaotic dynamics, but I am generally interested in decision making under uncertainty 
-              within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). 
-              <br></br> <br></br> 
-              As an avid sailor I am also greatly interested in the use of Machine Learning for the maritime industry, especially high performance sailing 
-              such as the America's Cup. This domain highlights many challenges in the use of Machine Learning due to the heavily stochastic and non-linear 
-              nature of the wind and waves. As well as difficulty optimising when dealing with heavily confounded multi-objectives such as light wind versus heavy wind performance. 
-              <br></br> <br></br> 
-              Further, I also explore applications of ML for environmental and sustainable uses such as 
-              the prediction of Forest Succession. 
-              <br></br> <br></br> 
-              Please reach out for discussions and/or collaborations in any of these areas!
-          </p>
+        <div style={styles.indSection}>
+          <h1>Research Interests</h1>
+            <p style={styles.largerFont}>My main focus is on Reinforcement Learning for non-linear dynamical systems particularly regarding chaotic dynamics, but I am generally interested in decision making under uncertainty 
+                within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). 
+                <br></br> <br></br> 
+                As an avid sailor I am also greatly interested in the use of Machine Learning for the maritime industry, especially high performance sailing 
+                such as the America's Cup. This domain highlights many challenges in the use of Machine Learning due to the heavily stochastic and non-linear 
+                nature of the wind and waves. As well as difficulty optimising when dealing with heavily confounded multi-objectives such as light wind versus heavy wind performance. 
+                <br></br> <br></br> 
+                Further, I also explore applications of ML for environmental and sustainable uses such as 
+                the prediction of Forest Succession. 
+                <br></br> <br></br> 
+                Please reach out for discussions and/or collaborations in any of these areas!
+            </p>
+        </div>
 
-        {featuredPublications.length > 0 && (
-          <div style={styles.selectedPublicationsSection}>
-            <h1>Featured Publications</h1>
-            <div style={styles.selectedPublicationsList}>
-                {featuredPublications.map((publication) => (
-                  <li key={publication.id}>
-                    <PublicationItem publication={publication} highlightName={nameToHighlight}/>
-                  </li>
-                ))}
+        <div style={styles.indSection}>
+          {featuredPublications.length > 0 && (
+            <div style={styles.selectedPublicationsSection}>
+              <h1>Featured Publications</h1>
+              <div style={styles.selectedPublicationsList}>
+                  {featuredPublications.map((publication) => (
+                    <li key={publication.id}>
+                      <PublicationItem publication={publication} highlightName={nameToHighlight}/>
+                    </li>
+                  ))}
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
 
         {/* <WorkExperience /> */}
         <Education />

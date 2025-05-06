@@ -1,7 +1,7 @@
 // src/components/Publications.js
 import React from 'react';
 import { allPublications } from '../assets/publications/publicationData';
-import PublicationItem from './PublicationItem'; // Import the reusable component
+import PublicationItem from './PublicationItem'; 
 
 const Publications = () => {
   const nameToHighlight = 'James Rudd-Jones'; // Example name to highlight

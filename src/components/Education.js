@@ -10,7 +10,7 @@ const EducationItem = ({ institution, degree, thesis, supervisor, years, logoSrc
       marginBottom: '15px',
     },
     logoContainer: {
-      width: '150px',
+      width: '170px',
       height: '100px',
       marginRight: '20px',
       display: 'flex',
