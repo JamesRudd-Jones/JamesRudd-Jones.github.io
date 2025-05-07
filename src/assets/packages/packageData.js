@@ -6,7 +6,7 @@ export const allPackages = [
           abstract: "A centralised location for a wide range of SOTA Model-Based RL algorithms. Although Jax is less amenable here than in Model-Free methods \
           the speed-ups are still significant. ",
           codeLink: "https://github.com/JamesRudd-Jones/JaxModel-BasedRL",
-          image: require('../images/aamas_paper_image.png'), 
+          image: require('../images/pendulum_env.png'), 
         },
         {
           id: '3',
