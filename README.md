@@ -1,3 +1,11 @@
+# Edits to make
+
+- Adjust navbar to be in line with content, how does it look?
+- White bar at the bottom of every page where the background image stops
+- Small bottom margin line on education section to remove
+- Change webpage name from GitHub when google searching
+- Find a different font perhaps
+
 # Based on the following for github.io
 
 https://github.com/gitname/react-gh-pages
