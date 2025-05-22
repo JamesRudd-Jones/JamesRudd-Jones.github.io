@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.d660e61f.js",
+    "main.js": "/static/js/main.7604ba9d.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/wind_chimes.gif": "/static/media/wind_chimes.289f9d41d631d82265e1.gif",
     "static/media/water_gif.gif": "/static/media/water_gif.ed4c2c54ae99d6a543db.gif",
     "static/media/better_one_2.gif": "/static/media/better_one_2.ded040c9aa9ac55ced9e.gif",
     "static/media/profile_image_4_website.jpg": "/static/media/profile_image_4_website.06e2889a67b7c808dd45.jpg",
     "static/media/background_image.jpg": "/static/media/background_image.fd6f1381127f51c11a86.jpg",
+    "static/media/fireflies.gif": "/static/media/fireflies.d943290169fe2ccd6b7e.gif",
     "static/media/aamas_paper_image.png": "/static/media/aamas_paper_image.cfe09f6b454075d8d274.png",
     "static/media/og_div_flow_field.png": "/static/media/og_div_flow_field.41097d476cc7b0f03eb6.png",
     "static/media/eds_paper_image.png": "/static/media/eds_paper_image.97ee03f8ae2163d4888c.png",
@@ -15,11 +16,11 @@
     "static/media/soton_logo.png": "/static/media/soton_logo.433e3aa923c0b65e91e4.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.d660e61f.js.map": "/static/js/main.d660e61f.js.map",
+    "main.7604ba9d.js.map": "/static/js/main.7604ba9d.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d660e61f.js"
+    "static/js/main.7604ba9d.js"
   ]
 }
