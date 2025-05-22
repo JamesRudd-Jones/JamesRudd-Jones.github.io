@@ -27,7 +27,9 @@ function App() {
       alignItems: 'center',
     },  
     navbarContainer: {
-      fontFamily: 'Garamond, sans-serif',
+      // fontFamily: 'Garamond, sans-serif',
+      fontFamily: 'Helvetica',
+      fontSize: '13px',
       position: 'fixed', // Make the navbar fixed to the top
       top: '0px', 
       left: '50%',
@@ -37,7 +39,12 @@ function App() {
       zIndex: 2, // Ensure it's above other content
     },  
     container: {
-      fontFamily: 'Garamond, sans-serif',
+      // fontFamily: 'Garamond, sans-serif',
+      fontFamily: 'Helvetica',
+      // fontWeight: "italic",
+      lineHeight: "1.4",
+      fontWeight: "10",
+      fontSize: '14px',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',

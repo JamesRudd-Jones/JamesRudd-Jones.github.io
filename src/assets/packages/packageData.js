@@ -1,6 +1,14 @@
 // src/data/packageData.js
 export const allPackages = [
         {
+          id: '5',
+          title: 'BifurcaGym',
+          abstract: "A Jax based suite of environments that have non-linear and chaotic dynamics. Containing problems from fields such as classic control, fluid control \
+          fusion control as well as canonical examples of chaotic dynamics such as the Logistic Map or Van der Pol oscillator. ",
+          codeLink: "https://github.com/JamesRudd-Jones/BifurcaGym",
+          image: require('../images/fireflies.gif'), 
+        },
+        {
           id: '4',
           title: 'Jax Model-Based RL',
           abstract: "A centralised location for a wide range of SOTA Model-Based RL algorithms. Although Jax is less amenable here than in Model-Free methods \

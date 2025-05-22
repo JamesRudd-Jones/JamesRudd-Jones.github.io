@@ -27,10 +27,10 @@ const PackageItem = ({ indpackage }) => {
     title: {
       fontWeight: 'bold',
       marginBottom: '5px',
-      fontSize: '1.2em',
+      fontSize: '1.1em',
     },
     details: {
-      fontSize: '16px',
+      fontSize: '0.9em',
       // color: '#777',
       marginBottom: '12px',
     },

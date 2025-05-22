@@ -27,6 +27,7 @@ const PublicationItem = ({ publication, highlightName }) => {
     title: {
       fontWeight: 'bold',
       marginBottom: '5px',
+      fontSize: '1.0em',
     },
     authors: {
       marginBottom: '3px',

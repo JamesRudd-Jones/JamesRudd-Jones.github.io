@@ -24,7 +24,7 @@ const Home = () => {
       borderBottom: '1px solid #aaa',
     },
     leftSection: {
-      flex: 0.35,
+      flex: 0.3,
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'flex-start',
@@ -58,7 +58,7 @@ const Home = () => {
       // paddingBottom: '20px',
     },
     largerFont: {
-      fontSize: '1.1em'
+      fontSize: '1.0em'
     }
     }
 
@@ -72,9 +72,9 @@ const Home = () => {
           <div>
             <h1>James Rudd-Jones</h1>
             <div style={styles.aboutMe}>
-              <h2>About Me</h2>
+              {/* <h3>About Me</h3> */}
               <p style={styles.largerFont}>
-                Hihi, I am a second year PhD student in Machine Learning at UCL supervised 
+                Hi, I am a second year PhD student in Machine Learning at UCL supervised 
                 by <a href="https://www.mariaperezortiz.com/" target="_blank" rel="noopener noreferrer">María Pérez-Ortiz</a> as 
                 part of the <a href="https://www.sml-group.cc/" target="_blank" rel="noopener noreferrer">Sustainability and Machine Learning Group</a>. 
                 <br></br> <br></br>
