@@ -5,6 +5,8 @@
 - Small bottom margin line on education section to remove
 - Change webpage name from GitHub when google searching
 - Find a different font perhaps
+- Change the Jax Model Based RL package image
+- For each project enable clicking on image to enlarge
 
 # Based on the following for github.io
 

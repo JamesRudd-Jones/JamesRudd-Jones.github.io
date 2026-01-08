@@ -3,7 +3,7 @@ export const allPackages = [
         {
           id: '5',
           title: 'BifurcaGym',
-          abstract: "A Jax based suite of environments that have non-linear and chaotic dynamics. Containing problems from fields such as classic control, fluid control \
+          abstract: "A Jax based suite of environments that have non-linear and chaotic dynamics. Containing problems from fields such as classic control, fluid control, \
           fusion control as well as canonical examples of chaotic dynamics such as the Logistic Map or Van der Pol oscillator. ",
           codeLink: "https://github.com/JamesRudd-Jones/BifurcaGym",
           image: require('../images/fireflies.gif'), 

@@ -5,9 +5,11 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Publications from './components/Publications';
 import Packages from './components/Packages';
+import Projects from './components/Projects';
 import Talks from './components/Talks';
 import Blog from './components/Blog';
 import backgroundImage from './assets/images/background_image.jpg';
+import ProjectPageWindChime1 from './assets/projects/wind_chime_1/project_page-wind_chime_1';
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 import {Helmet} from "react-helmet"; 
 
@@ -89,8 +91,13 @@ function App() {
               <Route path="/" element={<Home />} /> 
               <Route path="/publications" element={<Publications />} />
               <Route path="/packages" element={<Packages />} />
+              <Route path="/projects" element={<Projects />} />
               {/* <Route path="/talks" element={<Talks />} /> */}
               {/* <Route path="/blog" element={<Blog />} /> */}
+
+              {/* project page links below for Link routing */}
+              <Route path="/wind_chime_1" element={<ProjectPageWindChime1 />} />
+
             </Routes>
           </div>
         </div>
