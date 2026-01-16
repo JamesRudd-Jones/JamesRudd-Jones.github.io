@@ -1,19 +1,18 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Publications from './components/Publications';
 import Packages from './components/Packages';
 import Projects from './components/Projects';
-import Projects from './components/Projects';
-import Talks from './components/Talks';
-import Blog from './components/Blog';
+// import Talks from './components/Talks';
+// import Blog from './components/Blog';
 import backgroundImage from './assets/images/background_image.jpg';
 import ProjectPageWindChime1 from './assets/projects/wind_chime_1/project_page-wind_chime_1';
 import ProjectPageInternationalOneMetre1 from './assets/projects/iom_1/project_page-iom_1';
-import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
-import {Helmet} from "react-helmet"; 
+// import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
+// import {Helmet} from "react-helmet"; 
 
 function App() {
   const MaxWidthPage = "1400px"; // Set the maximum width for the page
