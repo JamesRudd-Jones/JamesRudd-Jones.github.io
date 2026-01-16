@@ -74,7 +74,7 @@ const Home = () => {
             <div style={styles.aboutMe}>
               {/* <h3>About Me</h3> */}
               <p style={styles.largerFont}>
-                Hi, I am a second year PhD student in Machine Learning at UCL supervised 
+                Hi, I am a third year PhD student in Machine Learning at UCL supervised 
                 by <a href="https://www.mariaperezortiz.com/" target="_blank" rel="noopener noreferrer">María Pérez-Ortiz</a> as 
                 part of the <a href="https://www.sml-group.cc/" target="_blank" rel="noopener noreferrer">Sustainability and Machine Learning Group</a>. 
                 <br></br> <br></br>
@@ -88,15 +88,17 @@ const Home = () => {
       <div style={styles.remainderSection}>
         <div style={styles.indSection}>
           <h1>Research Interests</h1>
-            <p style={styles.largerFont}>My main focus is on Reinforcement Learning for non-linear dynamical systems particularly regarding chaotic dynamics, but I am generally interested in decision making under uncertainty 
-                within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). 
+            <p style={styles.largerFont}>My main research focus covers Reinforcement Learning for non-linear dynamical systems particularly those with chaotic dynamics. More 
+                generally I am interested in decision making under uncertainty within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). Enacting long horizon 
+                control under chaotic dynamics is fascinating as we have to accept (and perhaps reconcile) a paradox: we desire to learn sequential actions from historical data, 
+                yet due to chaotic mixing and the sensitivity to initial conditions, individual trajectories are wildly idiosyncratic and are therefore uninformative.
                 <br></br> <br></br> 
-                As an avid sailor I am also greatly interested in the use of Machine Learning for the maritime industry, especially high performance sailing 
-                such as the America's Cup. This domain highlights many challenges in the use of Machine Learning due to the heavily stochastic and non-linear 
-                nature of the wind and waves. As well as difficulty optimising when dealing with heavily confounded multi-objectives such as light wind versus heavy wind performance. 
+                As an avid sailor the use of Machine Learning for the maritime industry, especially high performance sailing such as the America's Cup, is another great interest of mine.
+                The heavily stochastic and non-linear nature of the wind and waves makes for a very interesting applied ML domain.
+                Further, pronounced by the move towards hydrofoiling boats, sailboat optimisation typically deals with heavily confounded multi-objectives such as light wind versus
+                heavy wind performance or finding a balance between aerodynamic and hydrodynamic performance.
                 <br></br> <br></br> 
-                Further, I also explore applications of ML for environmental and sustainable uses such as 
-                the prediction of Forest Succession. 
+                I also explore applications of ML for environmental and sustainable uses such as the prediction of Forest Succession. 
                 <br></br> <br></br> 
                 Please reach out for discussions and/or collaborations in any of these areas!
             </p>
