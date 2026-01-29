@@ -212,11 +212,11 @@ const ProjectPageWindChime1 = () => {
           </p>
 
           <p>
-            For the indoor one I added some cut class orbs for some extra light and sound impact (as seen in the original image). Not only do they now emit nice textured light patters in the evening light but the glass
-            orbs also impact the chimes with certain wind gusts acting polyphonic tones and notes to the overall effect.
+            For the indoor one I added some cut class orbs for some extra light and sound benefits (as seen in the original image). Not only do they now emit nice textured light patterns 
+            in the evening light but the glass orbs also impact the chimes with certain wind gusts adding more tones and notes to the overall effect.
           </p>
           <p>
-            This project is a great fairly straightforward project for anyone interestd in Aeolian instruments. 
+            This is a great fairly straightforward project for anyone interestd in Aeolian instruments. 
             For me, with loads of spare tubes left, there is much more space for exploration of different design parameters!! Perhaps more will be featured on my website in months to come.
           </p>
   
