@@ -10,7 +10,7 @@ export const allPackages = [
         {
           id: '4',
           title: 'Jax Model-Based RL',
-          abstract: "A centralised location for a wide range of SOTA Model-Based RL algorithms. Although Jax is less amenable here than in Model-Free methods the speed-ups are still significant. ",
+          abstract: "A centralised location for a wide range of SOTA Model-Based RL algorithms. Although Jax is not as amenable here as for Model-Free methods the speed-ups are still significant. ",
           codeLink: "https://github.com/JamesRudd-Jones/JaxModel-BasedRL",
           image: require('../images/pendulum_env.png'), 
         },
@@ -31,14 +31,14 @@ export const allPackages = [
         {
           id: '1',
           title: 'Multi-Agent Reinforcement Learning to Generate Fluid Flows',
-          abstract: "Repository from my 3rd year thesis.  An application of MARL within a Lagrangian based particle fluid simulator in which the algorithm begun to learn and implement divergence free fluid flow.",
+          abstract: "Repository from my 3rd year BEng thesis.  An application of MARL within a Lagrangian based particle fluid simulator in which the algorithm begun to learn and implement divergence free fluid flow.",
           codeLink: 'https://github.com/JamesRudd-Jones/IP_Simple_Pygame_Fluid_Sim',
           image: require('../images/og_div_flow_field.png'),
         },
         {
           id: '0',
           title: 'RL 2D Sailing',
-          abstract: "A simple 2D sailing environment using RL to control a sailboat round the course. The environment is designed to be simple and easy to use with much scope for improvement.",
+          abstract: "A basic 2D sailing environment using RL to control a sailboat round the course. The environment is designed to be simple and easy to use with much scope for improvement.",
           codeLink: 'https://github.com/JamesRudd-Jones/Reinforcement-Learning-2d-Sailing',
           image: require('../images/better_one_2.gif'),
         },

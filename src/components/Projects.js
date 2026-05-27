@@ -7,11 +7,10 @@ const Projects = () => {
   return (
     <div>
       <h1>Projects</h1>
-      {/* <h3>Excerpts of public repositories. </h3> */}
 
       <p>
-        A collection of some of my creative endeavours, including design, engineering, programming, and more.
-        As much to be a helpful resource for others, as a personal record for myself! 
+        A collection of some of my creative endeavours including: design, engineering, programming, and more.
+        It is as much to be a helpful resource for others, as a personal record for myself! 
       </p>
 
       <h4>
