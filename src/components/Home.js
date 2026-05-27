@@ -39,6 +39,7 @@ const Home = () => {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'flex-start',
+      borderBottom: '1px solid #aaa',
     },
     indSection: {
       paddingTop: '20px', 

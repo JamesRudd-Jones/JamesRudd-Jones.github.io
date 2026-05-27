@@ -1,5 +1,5 @@
 // src/App.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -8,16 +8,25 @@ import Packages from './components/Packages';
 import Projects from './components/Projects';
 // import Talks from './components/Talks';
 // import Blog from './components/Blog';
-import backgroundImage from './assets/images/background_image.jpg';
+import bg1 from './assets/images/background_images/fowey.jpg';
+import bg2 from './assets/images/background_images/light_on_tree.jpg'; 
 import ProjectPageWindChime1 from './assets/projects/wind_chime_1/project_page-wind_chime_1';
 import ProjectPageInternationalOneMetre1 from './assets/projects/iom_1/project_page-iom_1';
 // import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 // import {Helmet} from "react-helmet"; 
 
+const backgroundImages = [bg1, bg2];
+
 function App() {
   const MaxWidthPage = "1400px"; // Set the maximum width for the page
   const PercentDiffMiddle = "80%";
   const resultantMaxWidth = parseFloat(MaxWidthPage) * parseFloat(PercentDiffMiddle) / 100;
+  const [currentBg, setCurrentBg] = useState(backgroundImages[0]);
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * backgroundImages.length);
+    setCurrentBg(backgroundImages[randomIndex]);
+  }, []);
 
   const styles = {
     backgroundFill: {
@@ -52,19 +61,24 @@ function App() {
       flexDirection: 'column',
       alignItems: 'center',
       minHeight: '100vh', 
-      background: `url(${backgroundImage})`,
       maxWidth: MaxWidthPage,
-      backgroundSize: '100% auto',
-      // backgroundRepeat: 'top center repeat-y',
       position: 'relative',
       margin: '0 auto', // Center horizontally
+
+      backgroundImage: `url(${currentBg})`, // Use the randomized state variable
+      // backgroundSize: 'cover',              // Scales image to fill the screen (may crop edges)
+      // backgroundPosition: 'center center',  // Keeps the focal point of the image in the middle
+      // backgroundRepeat: 'no-repeat',        // Prevents ugly seams
+      // backgroundAttachment: 'fixed',        // Optional, but highly recommended! Keeps the background still while you scroll down the page
+      backgroundSize: '100% auto',
+      // // backgroundRepeat: 'top center repeat-y',   
     },
     overlay: {
       position: 'relative',
       top: '30px',
       width: PercentDiffMiddle,
       backgroundColor: 'rgba(255, 255, 255, 0.8)',
-      minHeight: "100vh",
+      minHeight: "100vh",  // Ensures the translucent overlay covers entire page even if content is too short
       zIndex: 0,
     },
     contentWrapper: {
@@ -75,6 +89,7 @@ function App() {
       transform: 'translateX(-50%)', 
       flexDirection: 'column', 
       paddingTop: '50px',
+      paddingBottom: '50px', // adds some bottom padding if we remove the minheight feature from the overlay
       width: "90%"
     },
   };
