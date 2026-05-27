@@ -114,12 +114,12 @@ const ProjectPageWindChime1 = () => {
         </div>
 
         <div style={{...styles.column, flex: '0 0 65%'}}>
-          <p >I have a fascination with natural wind based (aka Aeolian) instruments and wind chimes are some of the simplest and most canonical examples. </p>
+          <p >I have a fascination with natural wind based (aka Aeolian) instruments; wind chimes are one of the simplest and most canonical examples. </p>
           <p>For this project, I set out to design and build my own wind chimes from some spare steel tubing that I was given. The choice of material, tubing diameter, and 
-            wall thickness have a great effect on the resultant sound, but since I had access to free materials it was set for me! In future projects I would like to experiment
+            wall thickness have a great effect on the resultant sound, but utilising free materials meant they were set for me! In future projects I would like to experiment
             with variations on these parameters.
           </p>
-          <p> The following resource is a great reference for designing and building many variations of wind chimes, it was great help for this project and I would highly
+          <p> The following resource is a great reference for designing and building many variations of wind chimes, it was a great help for this project and I would highly
             recommend checking it out: <a href="https://leehite.org/Chimes.htm" target="_blank" rel="noopener noreferrer"> Chime Design and Build</a>.
           </p>
         </div>
@@ -145,16 +145,16 @@ const ProjectPageWindChime1 = () => {
         <h2>The Build Begins</h2>
         <p>
           Given the calculated lengths, the angle grinder and drill came out to cut the tubes to length and the necessary holes for hanging (including deburring to prevent abrasion).
-          The wooden hanger was arbitrarily chosen about what looked "correct". Initially garden twine was used but quickly degraded in the weather so replaced with fishing line.
+          The wooden hanger was arbitrarily chosen so that it looked "correct?". Initially garden twine was used but quickly degraded in the weather so I have since replaced with fishing line.
           Since the tubes are steel, I have for now coated with oil to reduce corrosion!
         </p>
         <p>
-          The output wind chime lengths include some extra cutting tolerance as accuracy with an angle grinder is limited. Ideally one can refine the note using a method to measure the sound
+          The calculated wind chime lengths include some extra cutting tolerance as accuracy with an angle grinder is limited. Ideally one can refine the note using a method to measure the sound
           frequency at the same time as filing the tube shorter. I found this very challenging as the multiple resonant frequencies from the chime confused the apps I used to measure. I tuned to
           ear as best I could!
         </p>
         <p>
-          Below are some photos of the two wind chimes I built, choosing your own scales and designs can lead to many variations and really taps into ones own creativity!
+          Below are some photos of the two wind chimes I built, choosing your own scales and designs can lead to many variations and really taps into ones own creativity to create the euphonious tones of ones choosing!
         </p>
       </div>
 
@@ -212,11 +212,11 @@ const ProjectPageWindChime1 = () => {
           </p>
 
           <p>
-            For the indoor one I added some cut class orbs for some extra light and sound benefits (as seen in the original image). Not only do they now emit nice textured light patterns 
-            in the evening light but the glass orbs also impact the chimes with certain wind gusts adding more tones and notes to the overall effect.
+            For the indoor one I added some cut glass orbs for extra light and sound impact (as seen in the original image). Not only do they now emit nice textured light patters in the evening light but the glass
+            orbs also impact the chimes with certain wind gusts adding polyphonic tones and notes to the overall effect.
           </p>
           <p>
-            This is a great fairly straightforward project for anyone interestd in Aeolian instruments. 
+            This project is a great, fairly straightforward project for anyone interestd in Aeolian instruments. 
             For me, with loads of spare tubes left, there is much more space for exploration of different design parameters!! Perhaps more will be featured on my website in months to come.
           </p>
   
@@ -229,7 +229,7 @@ const ProjectPageWindChime1 = () => {
               Your browser does not support the video tag.
             </video>
             <figcaption style={styles.caption}>
-              A Video of the Larger Wind Chime in Action!
+              Some mellifluous tones from the Larger Wind Chime!
             </figcaption>
           </figure>
         </div>

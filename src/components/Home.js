@@ -39,6 +39,7 @@ const Home = () => {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'flex-start',
+      borderBottom: '1px solid #aaa',
     },
     indSection: {
       paddingTop: '20px', 
@@ -75,7 +76,7 @@ const Home = () => {
               {/* <h3>About Me</h3> */}
               <p style={styles.largerFont}>
                 Hi, I am a third year PhD student in Machine Learning at UCL supervised 
-                by <a href="https://www.mariaperezortiz.com/" target="_blank" rel="noopener noreferrer">María Pérez-Ortiz</a> as 
+                by <a href="https://www.mariaperezortiz.com/" target="_blank" rel="noopener noreferrer">María Pérez-Ortiz</a> and <a href="https://www.mircomusolesi.org/" target="_blank" rel="noopener noreferrer">Mirco Musolesi</a> as 
                 part of the <a href="https://www.sml-group.cc/" target="_blank" rel="noopener noreferrer">Sustainability and Machine Learning Group</a>. 
                 <br></br> <br></br>
                 I am supported by the UCL EPSRC DTP studentship.
@@ -88,12 +89,12 @@ const Home = () => {
       <div style={styles.remainderSection}>
         <div style={styles.indSection}>
           <h1>Research Interests</h1>
-            <p style={styles.largerFont}>My main research focus covers Reinforcement Learning for non-linear dynamical systems particularly those with chaotic dynamics. More 
+            <p style={styles.largerFont}>My main research focus covers Reinforcement Learning (RL) for non-linear dynamical systems particularly those with chaotic dynamics. More 
                 generally I am interested in decision making under uncertainty within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). Enacting long horizon 
                 control under chaotic dynamics is fascinating as we have to accept (and perhaps reconcile) a paradox: we desire to learn sequential actions from historical data, 
-                yet due to chaotic mixing and the sensitivity to initial conditions, individual trajectories are wildly idiosyncratic and are therefore uninformative.
+                yet due to chaotic mixing and the sensitivity to initial conditions, individual trajectories are wildly idiosyncratic and are therefore virtually uninformative.
                 <br></br> <br></br> 
-                As an avid sailor the use of Machine Learning for the maritime industry, especially high performance sailing such as the America's Cup, is another great interest of mine.
+                As an avid sailor the use of Machine Learning (ML) for the maritime industry, especially high performance sailing such as the America's Cup, is another great interest of mine.
                 The heavily stochastic and non-linear nature of the wind and waves makes for a very interesting applied ML domain.
                 Further, pronounced by the move towards hydrofoiling boats, sailboat optimisation typically deals with heavily confounded multi-objectives such as light wind versus
                 heavy wind performance or finding a balance between aerodynamic and hydrodynamic performance.

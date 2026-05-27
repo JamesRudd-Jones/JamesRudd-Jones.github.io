@@ -72,7 +72,7 @@ const EducationSection = ({ educationData }) => {
   const styles = {
     education: {
       marginBottom: '20px',
-      borderBottom: '1px solid #eee',
+      // borderBottom: '1px solid #eee',
       paddingBottom: '20px',
     },
     title: {

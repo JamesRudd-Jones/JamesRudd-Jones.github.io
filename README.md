@@ -1,12 +1,10 @@
 # Edits to make
 
-- Adjust navbar to be in line with content, how does it look?
-- White bar at the bottom of every page where the background image stops
-- Small bottom margin line on education section to remove
 - Change webpage name from GitHub when google searching
 - Find a different font perhaps
-- Change the Jax Model Based RL package image
-- For each project enable clicking on image to enlarge
+- Change many of the package images to something more apt as they are slow to load and not exactly clear 
+- Add a max width for monitors perhaps, has this already been done maybe?
+- Make it work well with phones? Or just prioritise online stuff maybe?
 
 # Based on the following for github.io
 
