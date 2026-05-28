@@ -1,9 +1,9 @@
 // components/Home.js
 import React from 'react';
 import ImageAndProfileLinks from './ImageAndProfileLinks';
-import WorkExperience from './WorkExperience';
+// import WorkExperience from './WorkExperience';
 import Education from './Education';
-import Hobbies from './Hobbies';
+// import Hobbies from './Hobbies';
 import { allPublications } from '../assets/publications/publicationData';
 import PublicationItem from './PublicationItem';
 
