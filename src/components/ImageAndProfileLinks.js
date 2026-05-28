@@ -1,7 +1,7 @@
 import React from 'react';
 import profileImage from '../assets/images/profile_image_4_website.jpg'; 
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaGoogleScholar } from 'react-icons/fa6';
 import EmailCopyIcon from './EmailCopyIcon';
 
 const ImageAndProfileLinks = () => {
@@ -52,9 +52,9 @@ const ImageAndProfileLinks = () => {
         <a href="https://github.com/JamesRudd-Jones" target="_blank" rel="noopener noreferrer">
           <FaGithub size={24} color={Iconcolour} />
         </a>
-        {/* <a href="https://scholar.google.com/citations?user=Ox5qME4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGoogleScholar} />
-        </a> */}
+        <a href="https://scholar.google.com/citations?user=Ox5qME4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">
+          <FaGoogleScholar size={24} color={Iconcolour} />
+        </a>
         <EmailCopyIcon email={myEmail} colour={Iconcolour} />
       </div>
     </div>
