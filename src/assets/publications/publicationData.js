@@ -13,7 +13,7 @@ export const allPublications = [
           title: 'An Agent-Centric Dynamical Systems Perspective on Multi-Agent Reinforcement Learning',
           authors: 'James Rudd-Jones, María Pérez-Ortiz, Mirco Musolesi',
           conference: "Reinforcement Learning Conference (RLC'2026)",
-          paperLink: "",
+          paperLink: "https://arxiv.org/abs/2512.07588",
           image: require('../images/EXP5_5_hyperparms_sweeps_recurrence-1-1.png'), 
         },
         {
