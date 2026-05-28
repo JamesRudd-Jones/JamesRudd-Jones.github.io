@@ -9,7 +9,7 @@ const Projects = () => {
       <h1>Projects</h1>
 
       <p>
-        A collection of some of my creative endeavours including: design, engineering, programming, and more.
+        A collection of some of my creative endeavours including: design, engineering, crafting, programming, and more.
         It is as much to be a helpful resource for others, as a personal record for myself! 
       </p>
 

@@ -1,116 +1,39 @@
 // src/assets/projects/iom_1/project_page-iom_1.js
-import React, { useState } from 'react';
-import { createPortal } from 'react-dom'; 
+import React from 'react';
+import { Row, Column, FullWidth } from '../ProjectLayout';
+import ExpandableImage from '../ExpandableImage';
+// import VideoPlayer from '../VideoPlayer';
+
+// Media Imports
 import mainPhoto from './images/main_pic.jpg';
+import onePhoto from "./images/1_base_forms.jpg";
+import twoPhoto from "./images/2_front_forms.jpg";
+import threePhoto from "./images/3_back_forms.jpg";
+import fourPhoto from "./images/4_back_forms.jpg";
+import fivePhoto from "./images/5_back_forms.jpg";
+import sixPhoto from "./images/6_back_straps.jpg";
+import sevenPhoto from"./images/7_the_plane.jpg";
+import eightPhoto from "./images/8_buckling.jpg";
+import ninePhoto from "./images/9_buckling.jpg";
+import tenPhoto from "./images/10_aft.jpg";
+import elevenPhoto from "./images/11_fore.jpg";
+import twelvePhoto from "./images/12_whole_boat.jpg";
+import thirteenPhoto from "./images/13_fibreglass.jpg";
+import fourteenPhoto from "./images/14_fibreglass.jpg";
+import fifteenPhoto from"./images/15_internal.jpg";
+
+
 
 const ProjectPageInternationalOneMetre1 = () => {
-  const [selectedImg, setSelectedImg] = useState(null);
-
-  const styles = {
-    // Container for side-by-side sections
-    row: {
-      display: 'flex',
-      flexDirection: 'row',
-      alignItems: 'flex-start', // Keeps text at the top
-      gap: '40px',          // Space between text and image
-      marginBottom: '40px',
-      width: '100%',
-      // flexWrap: 'wrap',     // Allows stacking on mobile TODO do we want this?
-    },
-    // Base column style
-    column: {
-      display: 'flex',
-      flexDirection: 'column',
-    },
-    figure: {
-      margin: 0, // Reset default browser margins
-      width: '100%',
-    },
-     // Image styling to ensure it fills its container
-    image: {
-      width: '100%',
-      height: 'auto',
-      // borderRadius: '4px',
-      // border: '1px solid #ccc',
-      objectFit: 'cover',
-      display: 'block', // Removes bottom gap in some browsers
-      cursor: 'zoom-in', 
-      transition: 'opacity 0.2s ease-in-out',
-    },
-    video: {
-      width: '100%',
-      height: 'auto',
-      borderRadius: '4px',
-      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-      outline: 'none',
-      backgroundColor: '#000', // Good for letterboxing if aspect ratio differs
-    },
-    caption: {
-      marginTop: '8px',
-      fontSize: '0.9rem',
-      color: '#555',
-      fontStyle: 'italic',
-      textAlign: 'center', // Or 'left' depending on your preference
-    },
-    imageHover: {
-      opacity: 0.85,
-    },
-    overlay: {
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      width: '100vw',       // Full viewport width
-      height: '100vh',      // Full viewport height
-      backgroundColor: 'rgba(0, 0, 0, 0.6)', // Dark background
-      backdropFilter: 'blur(5px)',           // Blurs the blog content behind
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      zIndex: 9999,
-      cursor: 'zoom-out',
-    },
-    fullImg: {
-      maxWidth: '90%',
-      maxHeight: '90%',
-      borderRadius: '4px',
-      boxShadow: '0 0 20px rgba(0, 0, 0, 0.36)',
-    },
-    fullWidth: {
-      width: '100%',
-      marginBottom: '20px'
-    }
-  }
-
-  // Define the Modal Content
-  const modal = selectedImg ? (
-    <div style={styles.overlay} onClick={() => setSelectedImg(null)}>
-      <img src={selectedImg} alt="Full View" style={styles.fullImg} />
-    </div>
-  ) : null;
-
   return (
     <div>
       <h1>Building a Wooden International One Metre Remote Control Yacht</h1>
 
-      {/* "Portal" sends the modal to the bottom of the HTML <body> so it isn't trapped in layout boxes*/}
-      {selectedImg && createPortal(modal, document.body)}    
-
-      <div style={styles.row}>
-        <div style={{...styles.column, flex: '0 0 30%'}}>
-          <figure style={styles.figure}>
-            <img 
-                src={mainPhoto} 
-                alt="The Outer Fibreglassed Hull" 
-                style={styles.image} onClick={() => setSelectedImg(mainPhoto)} 
-                onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
-                onMouseLeave={(e) => e.currentTarget.style.opacity = '1'} />
-            <figcaption style={styles.caption}>
-              The Outer Fibreglassed Hull; Note the beautiful knurling towards the fore of the boat.
-            </figcaption>
-          </figure>
-        </div>
-
-        <div style={{...styles.column, flex: '0 0 65%'}}>
+      <Row>
+        <Column width="40%">
+          <ExpandableImage src={mainPhoto} alt="The Outer Fibreglassed Hull"  caption="The Outer Fibreglassed Hull; Note the beautiful knurling towards the fore of the boat." />
+        </Column>
+        <Column width="55%">
           <p style={{marginTop: '0'}}>
             I love sailing and I especially love wooden boats. Unfortunately, living in a flat in London on a student salary prevents me from having a garage or real workshop space for
             the time being. Wanting to still pursue my desire and learn some wooden boat building skills in the interim, I have scaled down my expectations considerably; 
@@ -126,23 +49,24 @@ const ProjectPageInternationalOneMetre1 = () => {
             around ponds and canals, and at the very least a nice wall decoration.
             I have yet to even check if Regent's canal has enough depth for the keel !!
           </p>
-        </div>
-      </div>
+        </Column>
+      </Row>
 
-      <div style={styles.fullWidth}>
+      <FullWidth>
         <h2>Deciding upon a Design, Materials, and Tools</h2>
 
         <p>
           There are many good designs to be found online, each with their own pros and cons. I ended up choosing the  
           <a href="https://www.frankrusselldesign.com/plans/iom/" target="_blank" rel="noopener noreferrer"> Aeon</a> as it looked like an interesting modern design, and the purchased
-          drawings include a file for laser cutting the shadows (the forms to be planked around). Saving much time in having to mark out and hand cut them myself.
+          drawings include a file for laser cutting the shadows (the forms to be planked around). Saving much time in having to mark out and hand cut them myself. More information
+          about different designs online can be found <a href="https://www.wmrmyc.club/latest/building-a-woodie-iom" target="_blank" rel="noopener noreferrer">here</a>.
         </p>
 
         <p>
           Finding apt materials was a bit of a challenge, but I stumbled across the following 
           <a href="https://cedar-strip.co.uk/model_boats.html#content6-ay" target="_blank" rel="noopener noreferrer"> website</a> that provides Cedar strip planks sized for model yachts.
-          I went for the 3mm x 10mm x 1200mm planks as recommended by XXX add link XXX, and luckily received a set with some beautiful knurling on one half of each plank which I have "mostly" aligned for a nice effect (after I had laid the first plank
-          I realised this was the case: the starboard gunwhale is the wrong way around).          
+          I went for the 3mm x 10mm x 1200mm planks and luckily received a set with some beautiful knurling on one half of each plank which I have "mostly" aligned for a nice effect (after I had laid the first plank
+          I realised this was the case: the port gunwhale is the wrong way around).          
         </p>
 
         <p>
@@ -151,7 +75,7 @@ const ProjectPageInternationalOneMetre1 = () => {
         
         <table border="1" cellPadding="8" style={{ borderCollapse: 'collapse', width: '100%' }}>
           <thead>
-            <tr style={{ backgroundColor: '#f2f2f2', textAlign: 'left' }}>
+            <tr style={{ backgroundColor: '#f0f0f0', textAlign: 'left' }}>
               <th>Item</th>
               <th>Online Link (for UK based buyers)</th>
               <th>Purpose</th>
@@ -180,70 +104,174 @@ const ProjectPageInternationalOneMetre1 = () => {
             </tr>
           </tbody>
         </table>
-      </div>
+      </FullWidth>
 
-      <div style={styles.fullWidth}>
+      <FullWidth>
         <h2>Building the Form and Planking</h2>
 
         <p>
-          laser cutting the forms and putting together.
-          made a mistake in that used wood glue to attach together making it unusable but could use hot glue to make it reusable in some senses.
-          sellotaped the edge of each shadow so that the planks would not glue to it
-          but didn't place sellotape on the first and last shadow as these would be kept with the boat in some senses
+          I assembled the laser cut forms with wood glue but in retrospect using hot glue would be recommended as this makes for easier dissasembly and reuse.
+          Each shadow's edge was sellotaped to prevent the planks from being glued to the forms, except the first and last shadow so that the wood does stick here.
         </p>
 
         <p>
-          started with the gunwhale planks as well as two planks for the keel to give a nice split for the midline (recommended by xxx)
-          used hand plane to shave down the planks to fit well, tbh it was a hard form to plank around and in retrospect I did not shave enough down so there was a lot of wrapping of the forms if that makes sense
-          led to some challenges with keeping it all together with lots of internal stress, but maybe that adds to the strength? some pre tensile load ha
-          led to a buckle though
-          and also thin sections as had to sand a lot
-          check out following fb link as this may be a better way to do it by splitting sections whereas I did fully contiguously from the gunwhale to the keel
+          Initially I started wth the gunwhale planks as well as two keel planks following the centreline.
+          At first I was using clamps and jigs to hold the planks in place but found these to not apply enough force later on!
+          Subsequent planks were laid at the same time on alternate sides and the next layer started onced the glue had dried.
+          A useful picture gallery that helped guide my build process can be found <a href="https://photos.google.com/share/AF1QipMxXed35p9TqF_ukh014gf5LKZGhJ2iLm7HowIGwV-TOdwpK4bMF-BfP6CFZ3Obsw?key=T3puVTJtZ1FsNXhPckZCNmNUWTY4QVdyeU9zQTZR" target="_blank" rel="noopener noreferrer">here</a>.
+        </p>
+      </FullWidth>
+
+      <Row>
+        <Column width="30%">
+          <ExpandableImage src={onePhoto} alt="Pure Forms" caption="The full set of forms (peek my AC37 glass!)" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={twoPhoto} alt="Early Fore of the Process" caption="The beautiful knurling!" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={threePhoto} alt="Early Aft of the Process" caption="Early on using clamps and jigs" />
+        </Column>
+      </Row>
+
+      <FullWidth>
+        <p>
+          Using the aformentioned hand plane, planks were tapered towards the ends to form around the curvature.
+          I was a bit resistant to aggresive tapering, but this led to an incorrect angle of planks against the shadows and thus each plank incurring lots of twist.
+          Therefore, I needed more force to hold the planks and so moved on to an intensive array of rubber bands, drawing pins, and binder clips!
+          This twist created a lot of internal stress in the wood, but as a silver lining perhaps that increases the strength of the hull; some pre tensile load perhaps?
         </p>
 
         <p>
-          here are some photos of the process with added descriptions for the relevant sections perhaps
-          mostly used the rubber bands and binder clips to hold the planks, with sometimes requiring tape and drawing pins and string to hold it correctly
-          mostly this worked out well although at one point I rushed before previous layer had dried and it caused a buckle, whoops
-          recommend waiting at least a day or two between layers which ended up being a v slow process, perhaps doing a better form would mean less internal stress and therefore less waiting time between layers
-          did mirrored layers at the same time to save time
+          This was most noticeable towards the aft of the boat where the fit was not great, at least it can be partially rectified with sanding.
+          Due to the extreme bending at the aft I found the best method to hold to the forms was some tensioned twine!
+        </p>
+        
+      </FullWidth>
+
+      <Row>
+        <Column width="30%">
+          <ExpandableImage src={fourPhoto} alt="Using Rubber Bands and Pins" caption="Moving on to rubber bands and drawing pins!" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={fivePhoto} alt="Using Masking Tape" caption="...even some masking tape too..." />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={sixPhoto} alt="Finally some Tensioned Twine" caption="Plus some tensioned twine!" />
+        </Column>
+      </Row>
+
+      <FullWidth>
+        <p>
+          The rubber band and binder clip setup was great and held planks tight to the form.
+          Unfortunately, the high compressive strength led to a buckle as I was too eager to do another layer before the last layer's glue had fully dried!         
+        </p>   
+
+        <p>
+          I scrambled to force the buckle back and then reglued the gap to ensure correct bonding.
+          This again will come out in sanding but lead to some fairly thin planks in that section, lessons for next time.
+          I would recommend waiting at least a day or two between layers, which ended up being a very slow process; perhaps reducing internal stress through better plank
+          placement planning would mean less waiting time between layers. 
+        </p>     
+      </FullWidth>
+
+      <Row>
+        <Column width="30%">
+          <ExpandableImage src={sevenPhoto} alt="The Trusty Hand Plane" caption="The trusty hand plane!" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={eightPhoto} alt="Buckling Number One" caption="My eagerness leading to a buckle!" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={ninePhoto} alt="Buckling Number Two" caption="A questionable post-hoc repair with glue!" />
+        </Column>
+      </Row>
+
+      <FullWidth>
+        <p>
+          After some weeks I finally finished the planking; an enjoyable process that I was sad to see the end of.
+          At the latter stages I also incorporated fishing line and more pins to replace the rubber band and binder clip setup as this was not as useful once enough of the transversal curve had been travesed
+          and the planks were too close so that the clips could not be attached.
+          The planks had followed the shadows well although there were a couple of areas of warping and gaps.
+          Next time I would plan the plank placement more carefully to avoid these induced problems, but as a first attempt I think I bodged it okay.
         </p>
 
         <p>
-          I didn't like that the transom was the birch laser cut ply, so made up a small rectangle from the Cedar planks and then refit the transom to the boat, think it looks much better than before!
-          the design shows an angled transom but for ease I went pure vertical
+          For reference, another Aeon builder posted their process on <a href="https://www.facebook.com/photo/?fbid=1380545820743730&set=a.1380560097408969" target="_blank" rel="noopener noreferrer">Facebook</a> that showed 
+          them leaving a large gap in the planking between the gunwhale and keel at the fore of the boat.
+          I think this was in order to line up the angle of the planks to match the angle along the transverse curve: to allow the planks to follow their natural line around the hull.
+          Since this design has a very full volumnous bow and a narrow stern the planks naturally wanted to take an angle that diverges heavily from the gunwhale.
+          In designs where the difference in angle is not so great, it can be rectified by plank tapering alone.          
+          My method instead was a fully contiguous planking from gunwhale to keel, leading to planks not following the natural line and thus experieincing internal stress.
+          So many interesting downstream effects of hull volume placement in wooden and specifically planked boat building!
         </p>
 
-      </div>
+        <p>
+          I did not like that the transom was the birch laser cut ply: instead I made up a new transom from the Cedar planks and refit the transom so that the hull appeared fully planked.
+          The true Aeon design has an angled transom, but for manufacturing ease I went for purely vertical.
+          Sadly I do not have a photo of this change but it will be clear from later images.
+        </p>
+      </FullWidth>
 
-      <div style={styles.fullWidth}>
+      <Row>
+        <Column width="30%">
+          <ExpandableImage src={tenPhoto} alt="The Trusty Hand Plane Again" caption="" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={elevenPhoto} alt="Finalising the Front" caption="" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={twelvePhoto} alt="The Last Plank" caption="Your final form? So old, so new" />
+        </Column>
+      </Row>
+
+      <FullWidth>
         <h2>Fibreglassing and Removing Hull from Mould</h2>
 
         <p>
-          initially sanded the outside layer smooth as possible to some degree of smoothness
-          then used the following fibreglass as recommended by xx xxx in a single layer over the whole thing
-          check out the link as gives great description on how to get best surface finish
-          it looks incredible!
+          The act of remembering to take photos had a brief interlude at this stage of the process, so there is sparse visual evidence sadly!
+          Primarily though it involved a LOT of sanding, especially due to some of the poorer alignment of planks.
+          This led to some fairly thin spots in the hull post sanding, but due to the internal stress it still felt fairly strong, hopefully the fibgrelass layer helps hold these areas together under any impact!
+          I saved some of the sanded dust and mixed it with epoxy to fill in any pin holes, giving a nice old timely wooden boat look as sanded dust appears darker.
         </p>
 
         <p>
-          cut off excess fibreglass and then removed from mould
-          again sanded off excess glue on the inside to prepare for fibreglassing
-          added some internal planks to the gunwhales in preparation for attaching deck and other deck hardware, in retrospect I did not leave a lip and this may be preferential to get a nice edge with the deck!
-          went to fibreglass, in my naivety (use the double i) I went for one sheet and could not get it to sit inside the tight crevices near the front
-          had a bit of a meltdown mid epoxying and just ended up using the resin with now fibreglass, think it'll be okay
-          but for your own sanity I would recommend cutting sheets in half and doing at least two or more strips along the hull to avoid sticky resin messes with tight corners etc !!
-          maybe explain above a bit more clearly
+          Following on was fibreglassing, I used one layer of 50g cloth as recommended by the <a href="https://nelsonradiosailing.com/building-my-second-cedar-v8-iom-yacht/" target="_blank" rel="noopener noreferrer">following</a>, 
+          with the <a href="https://www.easycomposites.co.uk/el2-epoxy-laminating-resin" target="_blank" rel="noopener noreferrer">EL2</a> resin from easy composites. <a href="https://www.epoxyworks.com/fiberglassing-a-woodstrip-hull/" target="_blank" rel="noopener noreferrer">This website</a> gave 
+          great tips on how to get a good surface finish, I would highly recommend!
+          For the future I would like to build an all natural wooden boat without relying upon fibreglass and resin, or at least using some natural alternatives to these materials.
+          I worry at their environmental impact, as well as all the disposable gloves, brushes, etc used in the layup process. Bring on the flax composites!
         </p>
 
         <p>
-          the final hull looks fab and is hopefully strong enough to withstand the beginner RC sailor!
-          things I would make not of and do differentialy next time:
+          Once dried, excess fibreglass was cut off and the boat removed from the mould.
+          The inner planks were sanded much the same as the outside in preparation for fibreglass.
+          I added some internal planks to the gunwhales in preparation for attaching the deck and other deck hardware, in retrospect it may be best to leave a lip as this may be preferential to get a nice edge with the deck and bonding surface!
         </p>
 
-      </div>
+        <p>
+          In my na&iuml;vety I went to fibreglass the inside with only one sheet: a messy process of attempting to get the sheet to fit into all the tight crevices ensued.
+          Cue a meltdown and a hasty removal of the fibreglass sheet, leaving just resin, let us hope it's okay!
+          For your own sanity I would recommend cutting the sheet in at least half for longitudinal strips to avoid sticky resin messes with tight corners etc !!
+          The final hull looks fantastic and is hopefully strong enough to withstand the learning process of a beginner RC sailor!
+          {/* things I would make not of and do differentialy next time: */}
+        </p>
 
-      <div style={styles.fullWidth}>
+      </FullWidth>
+
+      <Row>
+        <Column width="30%">
+          <ExpandableImage src={thirteenPhoto} alt="Resin Photo One" caption="" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={fourteenPhoto} alt="Resin Photo Two" caption="" />
+        </Column>
+        <Column width="30%">
+          <ExpandableImage src={fifteenPhoto} alt="The Inner Surface" caption="The fibreglassed hull!" />
+        </Column>
+      </Row>
+
+      {/* <FullWidth>
         <h2>Fitting out the Hull Internals</h2>
 
         <p>
@@ -256,17 +284,15 @@ const ProjectPageInternationalOneMetre1 = () => {
           thanks to dude who had lush backyard shed workshop, the joys of retirement and owning a house !
         </p>
 
-      </div>
+      </FullWidth>
 
-      <div style={styles.fullWidth}>
+      <FullWidth>
         <h2>Attaching Hull Apendages and Deck</h2>
+      </FullWidth>
 
-      </div>
-
-      <div style={styles.fullWidth}>
+      <FullWidth>
         <h2>First Float and Sail</h2>
-
-      </div>
+      </FullWidth> */}
 
     </div>
   );

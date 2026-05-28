@@ -8,14 +8,18 @@ import Packages from './components/Packages';
 import Projects from './components/Projects';
 // import Talks from './components/Talks';
 // import Blog from './components/Blog';
-import bg1 from './assets/images/background_images/fowey.jpg';
-import bg2 from './assets/images/background_images/light_on_tree.jpg'; 
+// import bg1 from './assets/images/background_images/fowey.jpg';
+// import bg2 from './assets/images/background_images/light_on_tree.jpg'; 
 import ProjectPageWindChime1 from './assets/projects/wind_chime_1/project_page-wind_chime_1';
 import ProjectPageInternationalOneMetre1 from './assets/projects/iom_1/project_page-iom_1';
 // import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 // import {Helmet} from "react-helmet"; 
 
-const backgroundImages = [bg1, bg2];
+// const backgroundImages = [bg1, bg2];
+
+const importAll = (r) => r.keys().map(r);
+
+const backgroundImages = importAll(require.context('./assets/images/background_images', false, /\.(png|jpe?g|svg|JPG)$/));
 
 function App() {
   const MaxWidthPage = "1400px"; // Set the maximum width for the page
@@ -77,7 +81,7 @@ function App() {
       position: 'relative',
       top: '30px',
       width: PercentDiffMiddle,
-      backgroundColor: 'rgba(255, 255, 255, 0.8)',
+      backgroundColor: 'rgba(255, 255, 255, 0.85)',
       minHeight: "100vh",  // Ensures the translucent overlay covers entire page even if content is too short
       zIndex: 0,
     },

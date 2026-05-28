@@ -5,7 +5,7 @@ export const allPackages = [
           title: 'BifurcaGym',
           abstract: "A Jax based suite of environments that have non-linear and chaotic dynamics. Containing problems from fields such as classic control, fluid control, fusion control as well as canonical examples of chaotic dynamics such as the Logistic Map or Van der Pol oscillator. ",
           codeLink: "https://github.com/JamesRudd-Jones/BifurcaGym",
-          image: require('../images/fireflies.gif'), 
+          image: require('../images/bifurcagym_pic.png'), 
         },
         {
           id: '4',
@@ -19,12 +19,12 @@ export const allPackages = [
           title: 'Jax Multi-Agent RL',
           abstract: "Jax based repository containing a wide range of MARL approaches. The use of Jax enables incredible computational speed-ups compared to traditional approaches. Focuses on decentralised Multi-Agent RL algorithms but is also able to benchmark centralised MARL and Single-Agent RL algorithms.",
           codeLink: 'https://github.com/JamesRudd-Jones/JaxMulti-AgentRL',
-          image: require('../images/water_gif.gif'),
+          image: require('../images/multi_agents_perhaps.jpg'),
         },
         {
           id: '2',
           title: 'Wind Chime Length Calculation',
-          abstract: "Bin packing type problem to calculate the cutting dimensions of a set scale of notes for a wind chime from a set length of rods. Can also calculate the highest and lowest version of a scale given the array of rods available. An essential part of any custom wind chime design.",
+          abstract: "Bin packing style problem to calculate the cutting dimensions of a set scale of notes for a wind chime from a set length of rods. Can also calculate the highest and lowest version of a scale given the array of rods available. An essential part of any custom wind chime design.",
           codeLink: 'https://github.com/JamesRudd-Jones/windchime_length_calc',
           image: require('../images/wind_chime_length.jpg'),
         },

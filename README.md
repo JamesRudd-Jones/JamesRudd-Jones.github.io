@@ -2,7 +2,6 @@
 
 - Change webpage name from GitHub when google searching
 - Find a different font perhaps
-- Change many of the package images to something more apt as they are slow to load and not exactly clear 
 - Add a max width for monitors perhaps, has this already been done maybe?
 - Make it work well with phones? Or just prioritise online stuff maybe?
 

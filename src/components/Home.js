@@ -8,7 +8,7 @@ import { allPublications } from '../assets/publications/publicationData';
 import PublicationItem from './PublicationItem';
 
 const Home = () => {
-  const indicesToDisplay = [0, 1]; // Select publications by their index
+  const indicesToDisplay = [0, 1, 3]; // Select publications by their index
   const nameToHighlight = 'James Rudd-Jones'; // Example name to highlight
 
   const featuredPublications = indicesToDisplay.map(index => {
@@ -89,17 +89,17 @@ const Home = () => {
       <div style={styles.remainderSection}>
         <div style={styles.indSection}>
           <h1>Research Interests</h1>
-            <p style={styles.largerFont}>My main research focus covers Reinforcement Learning (RL) for non-linear dynamical systems particularly those with chaotic dynamics. More 
+            <p style={styles.largerFont}>My main research focus covers Reinforcement Learning (RL) for chaotic dynamical systems. More 
                 generally I am interested in decision making under uncertainty within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). Enacting long horizon 
-                control under chaotic dynamics is fascinating as we have to accept (and perhaps reconcile) a paradox: we desire to learn sequential actions from historical data, 
+                control under chaotic dynamics is fascinating as we have to accept (and perhaps reconcile) a paradox: we desire to learn a behavioural policy from historical data, 
                 yet due to chaotic mixing and the sensitivity to initial conditions, individual trajectories are wildly idiosyncratic and are therefore virtually uninformative.
                 <br></br> <br></br> 
                 As an avid sailor the use of Machine Learning (ML) for the maritime industry, especially high performance sailing such as the America's Cup, is another great interest of mine.
-                The heavily stochastic and non-linear nature of the wind and waves makes for a very interesting applied ML domain.
+                The heavily non-linear nature of the wind and waves makes for a very interesting applied ML domain.
                 Further, pronounced by the move towards hydrofoiling boats, sailboat optimisation typically deals with heavily confounded multi-objectives such as light wind versus
                 heavy wind performance or finding a balance between aerodynamic and hydrodynamic performance.
                 <br></br> <br></br> 
-                I also explore applications of ML for environmental and sustainable uses such as the prediction of Forest Succession. 
+                I also explore applications of ML for environmental and sustainable uses such as the prediction of Forest Succession, as I deeply care about the climate crisis. 
                 <br></br> <br></br> 
                 Please reach out for discussions and/or collaborations in any of these areas!
             </p>
