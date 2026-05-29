@@ -60,7 +60,7 @@ const Home = () => {
       // paddingBottom: '20px',
     },
     largerFont: {
-      fontSize: '1.0em'
+      fontSize: '1.0em',
     }
     }
 
