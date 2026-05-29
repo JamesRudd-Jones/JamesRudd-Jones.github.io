@@ -18,14 +18,27 @@ const importAll = (r) => r.keys().map(r);
 const backgroundImages = importAll(require.context('./assets/images/background_images', false, /\.(png|jpe?g|svg|JPG)$/));
 
 function App() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
   const MaxWidthPage = "1800px"; // Set the maximum width for the page
-  const PercentDiffMiddle = "75%";
+  // const PercentDiffMiddle = "75%";
+  const PercentDiffMiddle = isMobile ? "100%" : "75%";
   const resultantMaxWidth = parseFloat(MaxWidthPage) * parseFloat(PercentDiffMiddle) / 100;
   const [currentBg, setCurrentBg] = useState(backgroundImages[0]);
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * backgroundImages.length);
     setCurrentBg(backgroundImages[randomIndex]);
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const styles = {
@@ -49,6 +62,8 @@ function App() {
       width: PercentDiffMiddle,
       maxWidth: resultantMaxWidth,
       zIndex: 2, // Ensure it's above other content
+
+      transition: 'all 0.4s ease-in-out',
     },  
     container: {
       // fontFamily: 'Garamond, sans-serif',
@@ -69,11 +84,14 @@ function App() {
     },
     overlay: {
       position: 'relative',
-      marginTop: '30px',
+      // marginTop: '30px',
+      marginTop: isMobile ? '0px' : '30px',
       width: PercentDiffMiddle,
       backgroundColor: 'rgba(255, 255, 255, 0.85)',
       minHeight: "100vh",  // Ensures the translucent overlay covers entire page even if content is too short
       zIndex: 0,
+
+      transition: 'all 0.4s ease-in-out',
     },
     contentWrapper: {
       position: 'relative', 

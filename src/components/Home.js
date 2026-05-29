@@ -22,6 +22,7 @@ const Home = () => {
     mainContent: {
       display: 'flex',
       borderBottom: '1px solid #aaa',
+      paddingBottom: "20px",
     },
     leftSection: {
       flex: 0.3,
@@ -32,7 +33,7 @@ const Home = () => {
     },
     rightSection: {
       flex: 0.6,
-      paddingLeft: '00px',
+      paddingLeft: '0px',
     },
     remainderSection: {
       flex: 0.4,
