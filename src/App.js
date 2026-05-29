@@ -87,10 +87,11 @@ function App() {
       // marginTop: '30px',
       marginTop: isMobile ? '0px' : '30px',
       width: PercentDiffMiddle,
-      backgroundColor: 'rgba(255, 255, 255, 0.85)',
+      // backgroundColor: 'rgba(255, 255, 255, 0.9)',
+      backgroundColor: 'rgba(245, 250, 245, 0.9)',
       minHeight: "100vh",  // Ensures the translucent overlay covers entire page even if content is too short
       zIndex: 0,
-
+      borderRadius: '5px 5px 0 0',
       transition: 'all 0.4s ease-in-out',
     },
     contentWrapper: {

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const styles = {
     navbg: {
-      backgroundColor: '#f0f0f0',
+      backgroundColor: '#cad8cd',
       padding: '10px 0',
-      borderRadius: '5px',
+      borderRadius: '5px 5px 0 0',
       marginBottom: '20px',
       width: "100%",
     },
