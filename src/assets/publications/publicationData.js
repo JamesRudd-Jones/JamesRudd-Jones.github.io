@@ -5,7 +5,7 @@ export const allPublications = [
           title: 'On Distributional Reinforcement Learning in Chaotic Dynamical Systems',
           authors: 'James Rudd-Jones, Mirco Musolesi, María Pérez-Ortiz',
           conference: "arXiv preprint",
-          paperLink: "",
+          paperLink: "https://arxiv.org/abs/2605.30160",
           image: require('../images/double_gyre_flow_2d_landscape_plots_new-1.png'), 
         },
         {
