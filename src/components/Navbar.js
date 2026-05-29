@@ -17,19 +17,26 @@ const Navbar = () => {
     },
     navList: {
       listStyle: 'none',
-      padding: 0,
+      padding: '0 0 0 5%',
       margin: 0,
       display: 'flex',
+      flexWrap: 'nowrap',             // Force it to stay on one line
+      justifyContent: 'flex-start',   // Keep everything aligned to the Left-Hand Side
+      // The gap shrinks from 25px down to a minimum of 5px based on screen width
+      gap: 'clamp(10px, 10%, 80px)',
       
     },
     navItem: {
-      margin: '0 25px',
+      margin: 0,
     },
     navLink: {
       textDecoration: 'none',
       color: '#333',
       fontWeight: 'bold',
-      fontSize: "1.6em"
+      // fontSize: "1.6em"
+      fontSize: "clamp(0.9em, 2.5vw, 1.6em)", 
+      padding: "5px 0px", 
+      whiteSpace: 'nowrap',
     },
   };
 

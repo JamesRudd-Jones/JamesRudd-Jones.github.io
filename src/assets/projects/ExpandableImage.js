@@ -46,6 +46,7 @@ const ExpandableImage = ({ src, alt, caption }) => {
         <img 
           src={src} 
           alt={alt} 
+          loading="lazy"
           style={styles.image} 
           onClick={() => setIsOpen(true)} 
           onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}

@@ -1,29 +1,25 @@
 // src/App.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Publications from './components/Publications';
-import Packages from './components/Packages';
-import Projects from './components/Projects';
+
 // import Talks from './components/Talks';
 // import Blog from './components/Blog';
-// import bg1 from './assets/images/background_images/fowey.jpg';
-// import bg2 from './assets/images/background_images/light_on_tree.jpg'; 
-import ProjectPageWindChime1 from './assets/projects/wind_chime_1/project_page-wind_chime_1';
-import ProjectPageInternationalOneMetre1 from './assets/projects/iom_1/project_page-iom_1';
-// import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
-// import {Helmet} from "react-helmet"; 
 
-// const backgroundImages = [bg1, bg2];
+const Home = lazy(() => import('./components/Home'));
+const Publications = lazy(() => import('./components/Publications'));
+const Packages = lazy(() => import('./components/Packages'));
+const Projects = lazy(() => import('./components/Projects'));
+const ProjectPageWindChime1 = lazy(() => import('./assets/projects/wind_chime_1/project_page-wind_chime_1'));
+const ProjectPageInternationalOneMetre1 = lazy(() => import('./assets/projects/iom_1/project_page-iom_1'));
 
 const importAll = (r) => r.keys().map(r);
 
 const backgroundImages = importAll(require.context('./assets/images/background_images', false, /\.(png|jpe?g|svg|JPG)$/));
 
 function App() {
-  const MaxWidthPage = "1400px"; // Set the maximum width for the page
-  const PercentDiffMiddle = "80%";
+  const MaxWidthPage = "1800px"; // Set the maximum width for the page
+  const PercentDiffMiddle = "75%";
   const resultantMaxWidth = parseFloat(MaxWidthPage) * parseFloat(PercentDiffMiddle) / 100;
   const [currentBg, setCurrentBg] = useState(backgroundImages[0]);
 
@@ -67,15 +63,9 @@ function App() {
       minHeight: '100vh', 
       maxWidth: MaxWidthPage,
       position: 'relative',
-      margin: '0 auto', // Center horizontally
-
-      backgroundImage: `url(${currentBg})`, // Use the randomized state variable
-      // backgroundSize: 'cover',              // Scales image to fill the screen (may crop edges)
-      // backgroundPosition: 'center center',  // Keeps the focal point of the image in the middle
-      // backgroundRepeat: 'no-repeat',        // Prevents ugly seams
-      // backgroundAttachment: 'fixed',        // Optional, but highly recommended! Keeps the background still while you scroll down the page
+      margin: '0 auto', 
+      backgroundImage: `url(${currentBg})`, 
       backgroundSize: '100% auto',
-      // // backgroundRepeat: 'top center repeat-y',   
     },
     overlay: {
       position: 'relative',
@@ -107,20 +97,22 @@ function App() {
       <div style={styles.container}>
         <div style={styles.overlay}>
           <div style={styles.contentWrapper}>
-            <Routes>
-              <Route path="/" element={<Home />} /> 
-              <Route path="/publications" element={<Publications />} />
-              <Route path="/packages" element={<Packages />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/projects" element={<Projects />} />
-              {/* <Route path="/talks" element={<Talks />} /> */}
-              {/* <Route path="/blog" element={<Blog />} /> */}
+            <Suspense fallback={<div style={{ textAlign: 'center', marginTop: '50px' }}>Loading...</div>}>
+              <Routes>
+                <Route path="/" element={<Home />} /> 
+                <Route path="/publications" element={<Publications />} />
+                <Route path="/packages" element={<Packages />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/projects" element={<Projects />} />
+                {/* <Route path="/talks" element={<Talks />} /> */}
+                {/* <Route path="/blog" element={<Blog />} /> */}
 
-              {/* project page links below for Link routing */}
-              <Route path="/wind_chime_1" element={<ProjectPageWindChime1 />} />
-              <Route path="/iom_1" element={<ProjectPageInternationalOneMetre1 />} />
+                {/* project page links below for Link routing */}
+                <Route path="/wind_chime_1" element={<ProjectPageWindChime1 />} />
+                <Route path="/iom_1" element={<ProjectPageInternationalOneMetre1 />} />
 
-            </Routes>
+              </Routes>
+            </Suspense>
           </div>
         </div>
       </div>
