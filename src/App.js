@@ -22,7 +22,7 @@ function App() {
 
   const MaxWidthPage = "1800px"; // Set the maximum width for the page
   // const PercentDiffMiddle = "75%";
-  const PercentDiffMiddle = isMobile ? "100%" : "75%";
+  const PercentDiffMiddle = isMobile ? "100%" : "77%";
   const resultantMaxWidth = parseFloat(MaxWidthPage) * parseFloat(PercentDiffMiddle) / 100;
   const [currentBg, setCurrentBg] = useState(backgroundImages[0]);
 

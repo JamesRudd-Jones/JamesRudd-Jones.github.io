@@ -72,7 +72,7 @@ const Home = () => {
         </div>
         <div style={styles.rightSection}>
           <div>
-            <h1>James Rudd-Jones</h1>
+            <h2>James Rudd-Jones</h2>
             <div style={styles.aboutMe}>
               {/* <h3>About Me</h3> */}
               <p style={styles.largerFont}>
