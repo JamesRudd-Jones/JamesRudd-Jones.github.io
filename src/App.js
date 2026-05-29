@@ -79,7 +79,7 @@ function App() {
     },
     overlay: {
       position: 'relative',
-      top: '30px',
+      marginTop: '30px',
       width: PercentDiffMiddle,
       backgroundColor: 'rgba(255, 255, 255, 0.85)',
       minHeight: "100vh",  // Ensures the translucent overlay covers entire page even if content is too short
