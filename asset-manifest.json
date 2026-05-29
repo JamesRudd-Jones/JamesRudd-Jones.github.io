@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.a7ae78d5.js",
+    "main.js": "/static/js/main.bd5b548d.js",
     "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
     "static/media/wind_chimes.gif": "/static/media/wind_chimes.289f9d41d631d82265e1.gif",
     "static/media/better_one_2.gif": "/static/media/better_one_2.ded040c9aa9ac55ced9e.gif",
@@ -76,11 +76,11 @@
     "static/media/soton_logo.png": "/static/media/soton_logo.433e3aa923c0b65e91e4.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.a7ae78d5.js.map": "/static/js/main.a7ae78d5.js.map",
+    "main.bd5b548d.js.map": "/static/js/main.bd5b548d.js.map",
     "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a7ae78d5.js"
+    "static/js/main.bd5b548d.js"
   ]
 }
