@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.c54fe2ca.js",
-    "static/js/456.848ea1d2.chunk.js": "/static/js/456.848ea1d2.chunk.js",
+    "main.js": "/static/js/main.9d1acdb8.js",
+    "static/js/456.8016a81f.chunk.js": "/static/js/456.8016a81f.chunk.js",
     "static/js/790.638f51b2.chunk.js": "/static/js/790.638f51b2.chunk.js",
     "static/js/495.ba044a27.chunk.js": "/static/js/495.ba044a27.chunk.js",
     "static/js/229.68f8de7a.chunk.js": "/static/js/229.68f8de7a.chunk.js",
     "static/js/715.e01e3148.chunk.js": "/static/js/715.e01e3148.chunk.js",
     "static/js/717.882f9d37.chunk.js": "/static/js/717.882f9d37.chunk.js",
     "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
-    "static/js/596.3d60f977.chunk.js": "/static/js/596.3d60f977.chunk.js",
+    "static/js/642.ecc1c453.chunk.js": "/static/js/642.ecc1c453.chunk.js",
     "static/media/wind_chimes.gif": "/static/media/wind_chimes.289f9d41d631d82265e1.gif",
     "static/media/better_one_2.gif": "/static/media/better_one_2.ded040c9aa9ac55ced9e.gif",
     "static/media/PXL_20240405_134511184.MP.jpg": "/static/media/PXL_20240405_134511184.MP.b8c9fbe02949fa2147f6.jpg",
@@ -83,18 +83,18 @@
     "static/media/soton_logo.png": "/static/media/soton_logo.433e3aa923c0b65e91e4.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.c54fe2ca.js.map": "/static/js/main.c54fe2ca.js.map",
-    "456.848ea1d2.chunk.js.map": "/static/js/456.848ea1d2.chunk.js.map",
+    "main.9d1acdb8.js.map": "/static/js/main.9d1acdb8.js.map",
+    "456.8016a81f.chunk.js.map": "/static/js/456.8016a81f.chunk.js.map",
     "790.638f51b2.chunk.js.map": "/static/js/790.638f51b2.chunk.js.map",
     "495.ba044a27.chunk.js.map": "/static/js/495.ba044a27.chunk.js.map",
     "229.68f8de7a.chunk.js.map": "/static/js/229.68f8de7a.chunk.js.map",
     "715.e01e3148.chunk.js.map": "/static/js/715.e01e3148.chunk.js.map",
     "717.882f9d37.chunk.js.map": "/static/js/717.882f9d37.chunk.js.map",
     "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map",
-    "596.3d60f977.chunk.js.map": "/static/js/596.3d60f977.chunk.js.map"
+    "642.ecc1c453.chunk.js.map": "/static/js/642.ecc1c453.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c54fe2ca.js"
+    "static/js/main.9d1acdb8.js"
   ]
 }
