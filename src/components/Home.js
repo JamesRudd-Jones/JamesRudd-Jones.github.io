@@ -92,8 +92,9 @@ const Home = () => {
           <h1>Research Interests</h1>
             <p style={styles.largerFont}>My main research focus covers Reinforcement Learning (RL) for chaotic dynamical systems. More 
                 generally I am interested in decision making under uncertainty within physical process based scenarios (e.g. Weather/Climate/Fluids/Fusion). Enacting long horizon 
-                control under chaotic dynamics is fascinating as we have to accept (and perhaps reconcile) a paradox: we desire to learn a behavioural policy from historical data, 
-                yet due to chaotic mixing and the sensitivity to initial conditions, individual trajectories are wildly idiosyncratic and are therefore virtually uninformative.
+                control under chaotic dynamics is fascinating as we have to accept (and perhaps reconcile (much to the dismay of Winnicott)) a paradox: we desire to learn a behavioural 
+                policy from historical data, yet due to chaotic mixing and the sensitivity to initial conditions, individual trajectories are wildly idiosyncratic and are therefore 
+                virtually uninformative.
                 <br></br> <br></br> 
                 As an avid sailor the use of Machine Learning (ML) for the maritime industry, especially high performance sailing such as the America's Cup, is another great interest of mine.
                 The heavily non-linear nature of the wind and waves makes for a very interesting applied ML domain.
