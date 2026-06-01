@@ -98,8 +98,7 @@ const Home = () => {
                 <br></br> <br></br> 
                 As an avid sailor the use of Machine Learning (ML) for the maritime industry, especially high performance sailing such as the America's Cup, is another great interest of mine.
                 The heavily non-linear nature of the wind and waves makes for a very interesting applied ML domain.
-                Further, pronounced by the move towards hydrofoiling boats, sailboat optimisation typically deals with heavily confounded multi-objectives such as light wind versus
-                heavy wind performance or finding a balance between aerodynamic and hydrodynamic performance.
+                {/* Further, pronounced by the move towards hydrofoiling boats, sailboat optimisation typically deals with heavily confounded multi-objectives such as light wind versus heavy wind performance or finding a balance between aerodynamic and hydrodynamic performance. */}
                 <br></br> <br></br> 
                 I also explore applications of ML for environmental and sustainable uses such as the prediction of Forest Succession, as I deeply care about the climate crisis. 
                 <br></br> <br></br> 
