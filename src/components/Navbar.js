@@ -23,7 +23,7 @@ const Navbar = () => {
       flexWrap: 'nowrap',             // Force it to stay on one line
       justifyContent: 'flex-start',   // Keep everything aligned to the Left-Hand Side
       // The gap shrinks from 25px down to a minimum of 5px based on screen width
-      gap: 'clamp(10px, 10%, 80px)',
+      gap: 'clamp(10px, 6%, 80px)',
       
     },
     navItem: {
@@ -58,10 +58,10 @@ const Navbar = () => {
           </li>
           {/* <li style={styles.navItem}>
             <Link to="/talks" style={styles.navLink}>TALKS</Link>
-          </li>
-          <li style={styles.navItem}>
-            <Link to="/blog" style={styles.navLink}>BLOG</Link>
           </li> */}
+          <li style={styles.navItem}>
+            <Link to="/writings" style={styles.navLink}>Writings</Link>
+          </li>
         </ul>
       </div>
     </nav>

@@ -10,8 +10,12 @@ const Home = lazy(() => import('./components/Home'));
 const Publications = lazy(() => import('./components/Publications'));
 const Packages = lazy(() => import('./components/Packages'));
 const Projects = lazy(() => import('./components/Projects'));
-const ProjectPageWindChime1 = lazy(() => import('./assets/projects/wind_chime_1/project_page-wind_chime_1'));
+const Writings = lazy(() => import('./components/Writings'));
+
+const ProjectPageWindChime1 = lazy(() => import('./assets/projects/wind_chime_1/project_page-wind_chime_1'));  // TODO can I make this better to import?
 const ProjectPageInternationalOneMetre1 = lazy(() => import('./assets/projects/iom_1/project_page-iom_1'));
+
+const WritingPageDubstepLack = lazy(() => import('./assets/writings/dubstep_lack/writing_page-dubstep_lack'));
 
 const importAll = (r) => r.keys().map(r);
 
@@ -125,11 +129,14 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/projects" element={<Projects />} />
                 {/* <Route path="/talks" element={<Talks />} /> */}
-                {/* <Route path="/blog" element={<Blog />} /> */}
+                <Route path="/writings" element={<Writings />} />
 
                 {/* project page links below for Link routing */}
                 <Route path="/wind_chime_1" element={<ProjectPageWindChime1 />} />
                 <Route path="/iom_1" element={<ProjectPageInternationalOneMetre1 />} />
+
+                {/* writing page links below for Link routing */}
+                <Route path="/dubstep_lack" element={<WritingPageDubstepLack />} />
 
               </Routes>
             </Suspense>
