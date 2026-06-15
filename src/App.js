@@ -58,6 +58,7 @@ function App() {
     navbarContainer: {
       // fontFamily: 'Garamond, sans-serif',
       fontFamily: 'Helvetica',
+      // fontFamily: 'EB Garamond',
       fontSize: '13px',
       position: 'fixed', // Make the navbar fixed to the top
       top: '0px', 
@@ -72,6 +73,7 @@ function App() {
     container: {
       // fontFamily: 'Garamond, sans-serif',
       fontFamily: 'Helvetica',
+      // fontFamily: 'EB Garamond',
       // fontWeight: "italic",
       lineHeight: "1.4",
       // fontWeight: "10",
