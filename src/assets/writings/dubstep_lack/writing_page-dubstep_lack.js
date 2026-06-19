@@ -11,19 +11,59 @@ const WritingPageDubstepLack = () => {
       <h1>On Dubstep/Experimental Music, the Sonic Emulation of Large Spaces, and Intrinsic Human Lack</h1>
 
       <FullWidth>
+        These words are all my own, yet could easily have been discussed somewhere else.
+
         Recently, I have noticed much of my music taste revolves around the emulation of a sonically large space. 
         Conjuring images in the mind of a large, dark, cold, damp, empty space and is something I am drawn to throughout many genres.
         For example: Dubstep, xxx, xxx, xxx
         have linked some links for those to experience.
         Yet, I have never been in such a space, so why is it something that I long for, what emotions have I attached to such a physical manifestation?
+        Why dark, cold, and damp as well?
 
-        With my own journey in psychdynamic therapy and psychanalytic literature (sadly I cannot yet afford a true analysis), I feel at a point I can analyse this desire perhaps.
+        With my own journey in psychdynamic therapy and psychanalytic literature (sadly I cannot yet afford a true analysis), I feel at a point where I can begin to analyse this desire perhaps, both personally and societally.
+        As my first piece in this domain it will be messy and imperfect etc.
+
+        I refer primarily to the act of sublimation (link this) which has many different definitions by one's preffered pschyoanalyst.
+        At a high level sublimation refers to the transformation of "socially unacceptable" desires or 
+
+
 
         sense of space in dubstep and techno music I like
         loneliness and largeness
         some circling of the lack that lacan mentions, some subconscious sublimation perhaps?
         always struggled to place my interest in large spaces and sounds, they emulate some sadness perhaps?
         is it some manic defence too perhaps, noise and motion in this larger empty void?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         real digression - perhaps christain religion sees the first sin/transgession by adam and eve as this answer to the lack we all feel?
         feel like must have been written about before
