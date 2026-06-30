@@ -16,6 +16,7 @@ const ProjectPageWindChime1 = lazy(() => import('./assets/projects/wind_chime_1/
 const ProjectPageInternationalOneMetre1 = lazy(() => import('./assets/projects/iom_1/project_page-iom_1'));
 
 const WritingPageDubstepLack = lazy(() => import('./assets/writings/dubstep_lack/writing_page-dubstep_lack'));
+const WritingPagePolachekDesire = lazy(() => import('./assets/writings/polachek_desire/writing_page-polachek_desire'));
 
 const importAll = (r) => r.keys().map(r);
 
@@ -139,6 +140,7 @@ function App() {
 
                 {/* writing page links below for Link routing */}
                 <Route path="/dubstep_lack" element={<WritingPageDubstepLack />} />
+                <Route path="/polachek_desire" element={<WritingPagePolachekDesire />} />
 
               </Routes>
             </Suspense>

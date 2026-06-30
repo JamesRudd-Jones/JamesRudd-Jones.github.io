@@ -22,9 +22,10 @@ const WritingPageDubstepLack = () => {
         <p>
           Recently, I have noticed that much of the music I enjoy revolves around the emulation of a sonically large space.
           What I mean by this is that the musician through: instrument choices, notes, and production techniques creates a sense of largeness and space. 
-          For me, conjuring up images in my mind of a large, dark, cold, damp, empty space; something I am drawn to throughout many a genre.
+          For me it conjures up images in my mind of a large, dark, cold, damp, empty space; something I am drawn to throughout many a genre.
           Below I have linked songs that evoke this imagery in certain genres: Dubstep, xxx, xxx, xxx
-          Yet, I have never been in such a space; why is it something I long for and can create a mental image of, what emotions are attached to such a physical manifestation?
+          Yet, I have never been in such a space and have no tangible or tactile experience with one; why is it something I long for and can create a mental image of, what emotions are attached to such a physical manifestation?
+          maybe is this untrue, have been in huge concert halls I guess but idk if it is the same thing perhaps.
           The largeness and emptiness perhaps being clearer than why dark, cold, and damp as well?
         </p>
 
@@ -35,27 +36,33 @@ const WritingPageDubstepLack = () => {
         </p>
 
         <p>
-          Do I actually want to introduce sublimation or shall I just focus on Lacans definiton of the lack - think this may be better
-          some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around !
-          some line about feels quite apt that one of lacan's main things was lack (although understand in his native french it is manque or something similar so not as fitting ha)
-          define lack as lack-of-desire rather than just pure lack as that can be misconstrued as lacking of things perhaps which is not quite right
-
-          I refer primarily to the act of sublimation which has many different definitions and implications depending on the preffered pschyoanalyst of one's choosing.
-          At a high level sublimation refers to the transformation of "socially unacceptable" desires or impulses into "socially acceptable" or "productive" behaviours.
-          For example, the outpouring of artistic endeavours/overworking after an emotionally turbulent time (maybe not the best example here as vague) or the sublimation of aggression towards others or oneself into more socially 
-          acceptable forms such as competitve sports or for me, more so in my younger years, at heavy metal concerts.
+          We begin with French psychoanalyst <Emph>Jacques Lacan</Emph> for this discussion.
+          There is much discourse about Lacan's views, which is not something I will cover here (especially as his will is for the return to Freud), but I will take the following ideas in support of my argument.
+          Lacan's main view is that upon childhood we are all bestowed with a fundamental absence produced when a child transcends/leaves/grows past its era of omnipotence and must insert oneself into language and the symbolic order.
+          This is defined generally as lack, but in more depth as a <Emph>lack of being</Emph> or a <Emph>want to be</Emph> in order to separate it from material or biological lack.
+          Some important terminology is that of the <Emph>signifier</Emph> and the <Emph>symbolic order</Emph>, both terms coined by Lacan.
+          The latter at a high level is the overarching structure of language, culture, and societal laws that shape human subjectivity.
+          The former refering to a fundamental unit of the symbolic order, for instance written or spoken words as a formulation of characters and not the subjective meaning they instill.
+          Given the aforementioned defintions, for Lacan the intrinsic lack stems from the facts that no signifier is able to fully represent the subject, and further because the symbolic order itself is incomplete, something is always missing. 
+          Not one is able to recover this missing element as it is not an object, thus leading to a constitutive gap that conditions subjectivity. 
         </p>
 
         <p>
-          Onwards from here I focus on the definition of sublimation from the perspective of the French psychoanalyst <Emph>Jacques Lacan</Emph> for this discussion.
+          For Lacan, lack and desire are tightly intertwined.
+          need to explain this as well as the difference between desire and needs being met etc
+
           An import concept is that of <Emph>Das Ding</Emph> or termed as <Emph>objet petit a</Emph> by Lacan; both left in their original languages as insisted by Lacan but translated to "the thing" and "object little a" respectively.
+
+          "Fantasy functions as a scenario that stages the subject's relation to lack through the mediation of the object a, which Lacan defines as the cause of desire. "
+
+          As an aside it feels quite apt that one of Lacan's main theories relates to lack, yet sadly it is not as fitting given in his native French the term is infact <Emph>manque</Emph>.
+
           The term stands for an unattainable object of desire that one throughout their life attempts to give meaning to all desired objects around.
           It relates to the feeling of humanity's intrinsic lack, a void we all seek to fill.
           There is much to write about this subject which I will not and cannot cover here; I only include a very high level exposition.
-          Perhaps something about how it feels that Freud and Lacan perhaps see sublimation as a good thing whereas avoiding one's true unconcious not so good, idk need to flesh this out a bit and maybe not relevant here
-        </p>
 
-        <p>
+          some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around !
+        
           For Lacan sublimation is thus an act of transforming objects of desire to somehow attain the same status as his <Emph>objet petit a</Emph>.
           Further, he sees sublimation as the creation out of nothing, giving meaning to an object in relation to xxx.
           Similarly in the ideas of a creative self from Winnicott perhaps that a healthy individual creates life for themselves out of their interactions perhaps.
@@ -65,9 +72,8 @@ const WritingPageDubstepLack = () => {
         <p>
           All this leads us to back to my first paragraph.
           This sonic space that is created is again a large hollow space.
-          For me is this an act of sublimation in the eyes of Lacan?
-          What is the meaning of this space, what is the meaning of this desire for such a space?
-          It is also not unique, much of the music I enjoy is also enjoyed by many other's.
+          What is the meaning of this space, and further my desire for such a space?
+          It is also not unique, much of the music I enjoy whilst not chart topping is enjoyed by many others.
           some circling of the lack that lacan mentions, some subconscious sublimation perhaps?
         </p>
 
@@ -76,7 +82,7 @@ const WritingPageDubstepLack = () => {
         </p>
 
         <p>
-          What is unique and interesting about this musical space to me is twofold: first, can it ever truly be empty to be visualised; second, much of the enjoyment comes from how the space is filled.
+          What is unique and interesting about this musical space to me is twofold: first, can the space ever truly be empty to be visualised; second, much of the enjoyment comes from how the space is filled.
           For the former point what I mean is that there is some tension here.
           An artist requires sound to paint the picture of this space yet this in some senses fills up this void.
           Whilst time is left between notes and sounds and balancing this temporal space can also not be empty as the mental picture would fade.

@@ -25,12 +25,12 @@ export const Emph = ({ children }) => {
     fontSize: "1.0rem",         
     letterSpacing: "-0.03em",   
     fontWeight: 500,
-     display: "inline-block",
+    display: "inline-block",
     transform: "scaleX(0.85)",
     transformOrigin: "left center",
     marginRight: marginAdjustment, 
     position: "relative",
-    top: "0.5px",
+    // top: "0.5px",  // TODO why do some lines look good and some not?
   };
 
   return <span style={style}>{children}</span>;
