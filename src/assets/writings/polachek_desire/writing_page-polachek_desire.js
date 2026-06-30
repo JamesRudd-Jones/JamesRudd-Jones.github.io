@@ -24,6 +24,9 @@ const WritingPagePolachekDesire = () => {
           For me one of my big last breakup songs was "Hopedrunk Everasking", link it.
           At a high level her lyrics have meaning, especially her album titles are interesting too.
           In this musing I will cover a pscyhoanalytical critique of her, and especially my fave song with its follow up Coma link this as well as other bits
+
+          perhaps again is turn into some turning towards or some circling again of the lack ? 
+          it's not I want to become you but its the act of turning into, can even have a diagramme here to signify my points hm
         </p>
 
         <p>
