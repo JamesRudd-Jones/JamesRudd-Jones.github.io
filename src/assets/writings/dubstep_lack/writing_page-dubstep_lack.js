@@ -3,66 +3,44 @@ import React from 'react';
 import { Row, Column, FullWidth } from '../../projects/ProjectLayout';
 import ExpandableImage from '../../projects/ExpandableImage';
 // import VideoPlayer from '../VideoPlayer';
+import { writingContainer, Emph } from '../writingFonts';
 
-const writingContainer = {
-  // fontFamily: 'Crimson Pro',
-  // fontFamily: "Merriweather",
-  fontFamily: "Lora",
-  // fontFamily: "Joan",
-  fontSize: "1rem", 
-  lineHeight: "1.6",
-  color: "#222",
-}
-
-const Emph = ({ children }) => {
-  const textLength = typeof children === 'string' ? children.length : 0;
-  
-  const marginAdjustment = `-${textLength * 0.06}em`;
-
-  const style = {
-    // fontFamily: 'Crimson Pro',
-  fontFamily: "Merriweather",
-  // fontFamily: "Lora",
-  // fontFamily: "Joan",
-    fontStyle: "italic",
-    fontSize: "1.0rem",         
-    letterSpacing: "-0.03em",   
-    fontWeight: 500,
-     display: "inline-block",
-    transform: "scaleX(0.85)",
-    transformOrigin: "left center",
-    marginRight: marginAdjustment, 
-    position: "relative",
-    top: "0.5px",
-  };
-
-  return <span style={style}>{children}</span>;
+export const dubstepLackMeta = {
+  id: '0',
+  // title: 'On Dubstep Music, the Sonic Emulation of Large Spaces, and Intrinsic Human Lack',
+  title: "Title",
+  abstract: 'An intro.',
+  link: '/dubstep_lack',
 };
 
 const WritingPageDubstepLack = () => {
   return (
     <div>
-      {/* <h1>On Dubstep/Experimental Music, the Sonic Emulation of Large Spaces, and Intrinsic Human Lack</h1> */}
-      <h1>Title</h1>
+      <h1>{dubstepLackMeta.title}</h1>
 
       <FullWidth style={writingContainer}>
         <p>
           Recently, I have noticed that much of the music I enjoy revolves around the emulation of a sonically large space.
-          What I mean by this is that the musician, through instrument choices, notes, and production techniques creates a sense of largeness. 
-          Conjuring up images in my mind of a large, dark, cold, damp, empty space and is something I am drawn to throughout many genres.
-          For example I have linked some songs for those to experience in: Dubstep, xxx, xxx, xxx
-          Yet, I have never been in such a space, so why is it something that I long for and am able to visualise, what emotions are attached to such a physical manifestation?
+          What I mean by this is that the musician through: instrument choices, notes, and production techniques creates a sense of largeness and space. 
+          For me, conjuring up images in my mind of a large, dark, cold, damp, empty space; something I am drawn to throughout many a genre.
+          Below I have linked songs that evoke this imagery in certain genres: Dubstep, xxx, xxx, xxx
+          Yet, I have never been in such a space; why is it something I long for and can create a mental image of, what emotions are attached to such a physical manifestation?
           The largeness and emptiness perhaps being clearer than why dark, cold, and damp as well?
         </p>
 
         <p>
-          With my own journey in psychdynamic therapy and exploring psychanalytic literature (sadly I cannot yet afford a true analysis), I have felt the urge to create in this space and feel this as a great starting point to 
-          use some pscyhoanalytic concepts to try and understand this personal (and perhaps societal) phenomenon.
-          As my first piece in this domain, and even my first real humanities essay given my historical propensity for STEM (perhaps a relation to refusing to believe das ding etc), it may be a messy or unclear read but bare with me.
+          With my own journey in psychodynamic therapy and exploring psychanalytic literature (sadly I cannot yet afford a true analysis), I have felt the urge to create in this space and this will be my starting point to 
+          use pscyhoanalytic concepts to deepen an understanding of this personal (and perhaps societal) phenomenon.
+          As my first piece of non-empirical or quantitatively driven writing given my historical propensity for STEM it may be a messy or unclear read but bare with me.
         </p>
 
         <p>
-          I refer primarily to the act of sublimation which has many different definitions depending on the preffered pschyoanalyst of one's choosing.
+          Do I actually want to introduce sublimation or shall I just focus on Lacans definiton of the lack - think this may be better
+          some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around !
+          some line about feels quite apt that one of lacan's main things was lack (although understand in his native french it is manque or something similar so not as fitting ha)
+          define lack as lack-of-desire rather than just pure lack as that can be misconstrued as lacking of things perhaps which is not quite right
+
+          I refer primarily to the act of sublimation which has many different definitions and implications depending on the preffered pschyoanalyst of one's choosing.
           At a high level sublimation refers to the transformation of "socially unacceptable" desires or impulses into "socially acceptable" or "productive" behaviours.
           For example, the outpouring of artistic endeavours/overworking after an emotionally turbulent time (maybe not the best example here as vague) or the sublimation of aggression towards others or oneself into more socially 
           acceptable forms such as competitve sports or for me, more so in my younger years, at heavy metal concerts.

@@ -1,9 +1,6 @@
 // src/data/writingData.js
+import { dubstepLackMeta } from './dubstep_lack/writing_page-dubstep_lack.js';
+
 export const allWritings = [
-        {
-          id: '0',
-          title: 'On Dubstep/Experimental music, the sonic emulation of large spaces, and intrinsic human lack.',
-          abstract: "An intro.",
-          link: "/dubstep_lack",
-        },
+        dubstepLackMeta,
       ];
