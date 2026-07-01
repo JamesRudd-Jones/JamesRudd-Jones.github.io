@@ -18,19 +18,40 @@ export const Emph = ({ children }) => {
 
   const style = {
     // fontFamily: 'Crimson Pro',
-  fontFamily: "Merriweather",
-  // fontFamily: "Lora",
-  // fontFamily: "Joan",
+    fontFamily: "Merriweather",
+    // fontFamily: "Lora",
+    // fontFamily: "Joan",
     fontStyle: "italic",
     fontSize: "1.0rem",         
     letterSpacing: "-0.03em",   
-    fontWeight: 500,
+    fontWeight: 400,
+
     display: "inline-block",
     transform: "scaleX(0.85)",
-    transformOrigin: "left center",
+
+    transformOrigin: "left bottom",
+    verticalAlign: "baseline",
     marginRight: marginAdjustment, 
-    position: "relative",
-    // top: "0.5px",  // TODO why do some lines look good and some not?
+
+    // marginTop: "0.1em",    
+    // marginBottom: "0.1em",
+
+    // height: "1.2em", 
+    // lineHeight: "1.2em",
+    // overflow: "visible",
+
+    // // fontFamily: "'Roboto Serif'",
+    // fontFamily: "'Merriweather'",
+    // fontStyle: "italic",
+    // fontSize: "1.0rem",         
+    // fontWeight: 300,
+    
+    // // Native CSS text-condensing!
+    // // 100% is normal, anything lower is condensed (down to 50% for this font)
+    // // fontStretch: "25%", 
+    
+    // // Alternatively, you can use the lower-level variable axis property:
+    // fontVariationSettings: "'wdth' 5",
   };
 
   return <span style={style}>{children}</span>;

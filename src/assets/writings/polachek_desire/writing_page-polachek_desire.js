@@ -27,6 +27,30 @@ const WritingPagePolachekDesire = () => {
 
           perhaps again is turn into some turning towards or some circling again of the lack ? 
           it's not I want to become you but its the act of turning into, can even have a diagramme here to signify my points hm
+
+          """ 
+          "Desire, I Want To Turn Into You” within itself is such a futile endeavour when taken to it’s conclusion: first of all, you cannot become a feeling, and furthermore the feeling you want to become is unobtainable 
+          because you are wanting want. And once you have fulfilled that lack, you will no longer desire, thus losing what you wanted to become. It’s this beautiful, heated cyclical passion.
+
+          Which is why i love the title of this song so much. I don’t know if these are portmanteaus she coined herself, or if they are references, but they spell out the idea of “desire, i want to turn into you” so well: being 
+          in a state of constant want, literally drunk on hope, and forever asking…so beautiful. "
+          """
+          reddit quote that feels pretty apt given the idea of this essay, interesting they again use this idea of a cyclical passion - is a sphere again innit
+
+          """
+           In the last verse, there's a line suggested but unspoken. In the parallel first verse, in present tense, there are four lines after 'hopedrunk everasking' - culminating in 'pull close to me and never be alone'.
+
+          The final verse only has three lines after hopedrunk everasking, but leaves the perfect amount of timing for the line 'pull close to me and never be alone'. Not including this and ending on 'and yet they won't' is 
+          almost more existentially terrifying. 
+          """
+          Another quote from reddit hey
+
+          https://stuyspec.com/article/when-wanting-isnt-enough
+          https://carolinepolachek.fandom.com/wiki/Hopedrunk_Everasking
+
+
+
+          discuss the sound of the firealarm and then the hospital beep in coma - is there a link between them to some unconcious coma vibe and the dream state in the tunnel?
         </p>
 
         <p>

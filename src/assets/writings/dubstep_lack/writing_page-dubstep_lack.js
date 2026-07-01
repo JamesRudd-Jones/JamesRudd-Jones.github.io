@@ -21,7 +21,7 @@ const WritingPageDubstepLack = () => {
       <FullWidth style={writingContainer}>
         <p>
           Recently, I have noticed that much of the music I enjoy revolves around the emulation of a sonically large space.
-          What I mean by this is that the musician through: instrument choices, notes, and production techniques creates a sense of largeness and space. 
+          What I mean by this is that the musician through: instrument choices, notes, and production techniques creates a sense of vastness and space. 
           For me it conjures up images in my mind of a large, dark, cold, damp, empty space; something I am drawn to throughout many a genre.
           Below I have linked songs that evoke this imagery in certain genres: Dubstep, xxx, xxx, xxx
           Yet, I have never been in such a space and have no tangible or tactile experience with one; why is it something I long for and can create a mental image of, what emotions are attached to such a physical manifestation?
@@ -70,9 +70,9 @@ const WritingPageDubstepLack = () => {
         </p>
 
         <p>
-          All this leads us to back to my first paragraph.
+          All this leads us to back to my <Emph>first paragraph</Emph>.
           This sonic space that is created is again a large hollow space.
-          What is the meaning of this space, and further my desire for such a space?
+          What is the meaning of this space, and further <Emph>my desire for such a space</Emph>?
           It is also not unique, much of the music I enjoy whilst not chart topping is enjoyed by many others.
           some circling of the lack that lacan mentions, some subconscious sublimation perhaps?
         </p>
@@ -86,7 +86,7 @@ const WritingPageDubstepLack = () => {
           For the former point what I mean is that there is some tension here.
           An artist requires sound to paint the picture of this space yet this in some senses fills up this void.
           Whilst time is left between notes and sounds and balancing this temporal space can also not be empty as the mental picture would fade.
-          Perhaps the best songs tread this fine line carefully.
+          Perhaps the <Emph>best songs tread this fine line carefully</Emph>.
           For the latter too in some way linked, is that many of these songs fill the space with noise and motion, is it perhaps some manic style defence against the emptiness of the void?
           More thoughts to be had here but there is perhaps something more.
 
