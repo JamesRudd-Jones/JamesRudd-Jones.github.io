@@ -20,8 +20,8 @@ const WritingPageDubstepLack = () => {
 
       <FullWidth style={writingContainer}>
         <p>
-          Recently, I have noticed that much of the music I enjoy revolves around the emulation of a sonically large space.
-          What I mean by this is that the musician through: instrument choices, notes, and production techniques creates a sense of vastness and space. 
+          Recently, I have noticed that much of the music I enjoy revolves around the emulation of sonically large spaces.
+          What I mean by this is that the musician through: instrument choices, notes and melodies, and production techniques creates a sense of vastness and space. 
           For me it conjures up images in my mind of a large, dark, cold, damp, empty space; something I am drawn to throughout many a genre.
           Below I have linked songs that evoke this imagery in certain genres: Dubstep, xxx, xxx, xxx
           Yet, I have never been in such a space and have no tangible or tactile experience with one; why is it something I long for and can create a mental image of, what emotions are attached to such a physical manifestation?
@@ -30,36 +30,43 @@ const WritingPageDubstepLack = () => {
         </p>
 
         <p>
-          With my own journey in psychodynamic therapy and exploring psychanalytic literature (sadly I cannot yet afford a true analysis), I have felt the urge to create in this space and this will be my starting point to 
+          With my own journey in psychodynamic therapy and exploring psychanalytic literature (sadly I cannot yet afford an intesive analysis), I have felt the urge to create in this space and this will be my starting point to 
           use pscyhoanalytic concepts to deepen an understanding of this personal (and perhaps societal) phenomenon.
           As my first piece of non-empirical or quantitatively driven writing given my historical propensity for STEM it may be a messy or unclear read but bare with me.
         </p>
 
         <p>
-          We begin with French psychoanalyst <Emph>Jacques Lacan</Emph> for this discussion.
-          There is much discourse about Lacan's views, which is not something I will cover here (especially as his will is for the return to Freud), but I will take the following ideas in support of my argument.
-          Lacan's main view is that upon childhood we are all bestowed with a fundamental absence produced when a child transcends/leaves/grows past its era of omnipotence and must insert oneself into language and the symbolic order.
-          This is defined generally as lack, but in more depth as a <Emph>lack of being</Emph> or a <Emph>want to be</Emph> in order to separate it from material or biological lack.
-          Some important terminology is that of the <Emph>signifier</Emph> and the <Emph>symbolic order</Emph>, both terms coined by Lacan.
-          The latter at a high level is the overarching structure of language, culture, and societal laws that shape human subjectivity.
+          We begin with the French psychoanalyst <Emph>Jacques Lacan</Emph> for this discussion.
+          There is much discourse about Lacan's views, which is not something I cover here (especially as his will is for the return to Freud), but I use his following ideas in support of my argument.
+          Lacan states that in our time as children we are bestowed with a fundamental absence — defined generally as lack, but in more depth as a <Emph>lack of being</Emph> or a <Emph>want to be</Emph> in order to separate it from material 
+          or biological lack — formed as we develop from our initial era of omnipotence to a state where we must insert ourselves into language and society in order to communicate with the other.
+          Further important Lacan terminology is that of the <Emph>signifier</Emph> and the <Emph>symbolic order</Emph>.
+          The latter at a high level is the overarching structure of language, culture, and societal laws/structures that shape human subjectivity.
           The former refering to a fundamental unit of the symbolic order, for instance written or spoken words as a formulation of characters and not the subjective meaning they instill.
           Given the aforementioned defintions, for Lacan the intrinsic lack stems from the facts that no signifier is able to fully represent the subject, and further because the symbolic order itself is incomplete, something is always missing. 
-          Not one is able to recover this missing element as it is not an object, thus leading to a constitutive gap that conditions subjectivity. 
+          Language functions as providing subjective signifiers that further only point or relate to other signifiers and can never really fully convey ones's internal experience.
+          Recovering this missing element is impossible as it is not an object but a structural condition (it's not X it's Y thanks chatgpt), thus leading to a constitutive gap that conditions subjectivity. 
+          In more words of what I mean by conditioning subjectivity, is thatzl
         </p>
 
         <p>
-          For Lacan, lack and desire are tightly intertwined.
+          For Lacan, lack and desire are tightly intertwined; he believes that our intrinsic underlying lack drives all desire.
           need to explain this as well as the difference between desire and needs being met etc
 
           An import concept is that of <Emph>Das Ding</Emph> or termed as <Emph>objet petit a</Emph> by Lacan; both left in their original languages as insisted by Lacan but translated to "the thing" and "object little a" respectively.
+          For Lacan, objet petit a is the unattainable object of desire that we all seek to obtain and mistakingly believe will finally satisfy us.
+           The term stands for an unattainable object of desire that one throughout their life attempts to give meaning to all desired objects around.
+          It relates to the feeling of humanity's intrinsic lack, a void we all seek to fill.
+          There is much to write about this subject which I will not and cannot cover here; I only include a very high level exposition.
+          However, we all know the feeling of obtaining something we believe is our true desire that quickly loses its appeal and then find ourselves searching for the next object of/to desire.
+          Desire is thus a constant pursuit, more the act of desiring, than finding an object to desire; a never ending search.
+          As an aside, Caroline Polachek's album titled "Desire, I Want to Turn Into You" feels like a related theme indeed and apt for a psychoanalytical critique!
 
           "Fantasy functions as a scenario that stages the subject's relation to lack through the mediation of the object a, which Lacan defines as the cause of desire. "
 
           As an aside it feels quite apt that one of Lacan's main theories relates to lack, yet sadly it is not as fitting given in his native French the term is infact <Emph>manque</Emph>.
 
-          The term stands for an unattainable object of desire that one throughout their life attempts to give meaning to all desired objects around.
-          It relates to the feeling of humanity's intrinsic lack, a void we all seek to fill.
-          There is much to write about this subject which I will not and cannot cover here; I only include a very high level exposition.
+         
 
           some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around !
         
@@ -70,9 +77,9 @@ const WritingPageDubstepLack = () => {
         </p>
 
         <p>
-          All this leads us to back to my <Emph>first paragraph</Emph>.
+          Upon setting the scene we can return to - All this leads us to back to my first paragraph.
           This sonic space that is created is again a large hollow space.
-          What is the meaning of this space, and further <Emph>my desire for such a space</Emph>?
+          What is the meaning of this space, and further my desire for such a space?
           It is also not unique, much of the music I enjoy whilst not chart topping is enjoyed by many others.
           some circling of the lack that lacan mentions, some subconscious sublimation perhaps?
         </p>
