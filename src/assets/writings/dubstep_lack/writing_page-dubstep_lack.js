@@ -42,46 +42,48 @@ const WritingPageDubstepLack = () => {
           or biological lack — formed as we develop from our initial era of omnipotence to a state where we must insert ourselves into language and society in order to communicate with the other.
           Further important Lacan terminology is that of the <Emph>signifier</Emph> and the <Emph>symbolic order</Emph>.
           The latter at a high level is the overarching structure of language, culture, and societal laws/structures that shape human subjectivity.
-          The former refering to a fundamental unit of the symbolic order, for instance written or spoken words as a formulation of characters and not the subjective meaning they instill.
+          The former refering to a fundamental unit of the symbolic order: for instance written or spoken words as a formulation of characters and not the subjective meaning they instill.
           Given the aforementioned defintions, for Lacan the intrinsic lack stems from the facts that no signifier is able to fully represent the subject, and further because the symbolic order itself is incomplete, something is always missing. 
           Language functions as providing subjective signifiers that further only point or relate to other signifiers and can never really fully convey ones's internal experience.
-          Recovering this missing element is impossible as it is not an object but a structural condition (it's not X it's Y thanks chatgpt), thus leading to a constitutive gap that conditions subjectivity. 
+          Recovering this missing element is impossible as it is not an object but a structural condition (it's not X it's Y thanks chatgpt), thus leading to a constitutive gap or lack that conditions one's subjectivity. 
           In more words of what I mean by conditioning subjectivity, is thatzl
         </p>
 
         <p>
           For Lacan, lack and desire are tightly intertwined; he believes that our intrinsic underlying lack drives all desire.
-          need to explain this as well as the difference between desire and needs being met etc
-
-          An import concept is that of <Emph>Das Ding</Emph> or termed as <Emph>objet petit a</Emph> by Lacan; both left in their original languages as insisted by Lacan but translated to "the thing" and "object little a" respectively.
-          For Lacan, objet petit a is the unattainable object of desire that we all seek to obtain and mistakingly believe will finally satisfy us.
-           The term stands for an unattainable object of desire that one throughout their life attempts to give meaning to all desired objects around.
-          It relates to the feeling of humanity's intrinsic lack, a void we all seek to fill.
-          There is much to write about this subject which I will not and cannot cover here; I only include a very high level exposition.
-          However, we all know the feeling of obtaining something we believe is our true desire that quickly loses its appeal and then find ourselves searching for the next object of/to desire.
-          Desire is thus a constant pursuit, more the act of desiring, than finding an object to desire; a never ending search.
-          As an aside, Caroline Polachek's album titled "Desire, I Want to Turn Into You" feels like a related theme indeed and apt for a psychoanalytical critique!
-
-          "Fantasy functions as a scenario that stages the subject's relation to lack through the mediation of the object a, which Lacan defines as the cause of desire. "
-
-          As an aside it feels quite apt that one of Lacan's main theories relates to lack, yet sadly it is not as fitting given in his native French the term is infact <Emph>manque</Emph>.
-
-         
-
-          some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around !
-        
-          For Lacan sublimation is thus an act of transforming objects of desire to somehow attain the same status as his <Emph>objet petit a</Emph>.
-          Further, he sees sublimation as the creation out of nothing, giving meaning to an object in relation to xxx.
-          Similarly in the ideas of a creative self from Winnicott perhaps that a healthy individual creates life for themselves out of their interactions perhaps.
-          Lacan gives examples of this in pottery and architecture: both being ancient practicies that we have always relied on and both an empty or hollow space that one creates around.  
+          Lacan distinguishes between desire and demands, where typically one may conflate desire with demands.
+          Desire is an unconscious drive whereas demands are conscious and can easily be articulated or met.
+          An import concept is that of <Emph>Das Ding</Emph> or termed as <Emph>objet petit a</Emph> by Lacan later in his life; both left in their original languages as insisted by Lacan but translated to "the thing" and "object small o" 
+          respectively (where 'a' stands for for the French 'autre' meaning 'other').
+          For Lacan, <Emph>objet petit a</Emph> stands for the object-cause of desire — not something we desire but what creates desire itself.
+          It is not an actual object but rather a consitutive lack, it is the lost object that causes one to desire; perhaps a void or emptiness.
+          Some might say that desire is an ever circling around this central void, perhaps incarnating our unconcious beliefs of the <Emph>objet petit a</Emph> into real objects in an attempt to reduce our orbit.
+          In this act we may hope to attain this missing part or return to our believed state of omnipotence that we experienced as infants; although this omnipotent era was only possible due to the support given by our initial caregivers.
+          Much more could be said about these concepts and their interrelations but for now I will leave it there as a full analysis is outside the scope of this work.
+          Desire is thus a constant pursuit, more so it is the act of desiring, than finding an object to desire; a never ending search.
+          As an aside, Caroline Polachek's album titled "Desire, I Want To Turn Into You" feels like a related theme indeed and apt for a psychoanalytical critique, perhaps the theme for my next piece!
         </p>
 
         <p>
-          Upon setting the scene we can return to - All this leads us to back to my first paragraph.
-          This sonic space that is created is again a large hollow space.
+          To summarise so far, we have introduce the Lacanian viewpoints on lack and desire and some of the relevant notions and geometry.
+          maybe more of a detailed summary
+          To further the latter we will discuss below the role of fantasy.
+          Although the <Emph>objet petit a</Emph> is a shared experience amongst all, there are still idiosyncracies in individual expressions of desire — we each have unique histories and trajectories that shape our own <Emph>objet petit a</Emph>.
+          For Lacan, fantasy is a mechanism that enables a subject to uncconsiously relate certain features or bounds to the object-cause of our desires.
+          The act of fantasising is not purely to satisfy a demand that is unachievable in reality perhaps, but instead the bounds of the fantasy are instead tightly related to the bounds of our desire.
+        </p>
+
+        <p>
+          To return to my original question, but now with some machinery to perhaps help answer it, I ask: what does the fantasy created by the aformentioned music xxx and why does it xxx?
+          Whilst a very personal question, it is also not unique; much of the music I enjoy, albeit not chart topping, is enjoyed by many others.
+
+
+
+          some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around !
+          Lacan gives examples of this in pottery and architecture: both being ancient practicies that we have always relied on and both an empty or hollow space that one creates around.  
+
           What is the meaning of this space, and further my desire for such a space?
-          It is also not unique, much of the music I enjoy whilst not chart topping is enjoyed by many others.
-          some circling of the lack that lacan mentions, some subconscious sublimation perhaps?
+          some circling of the lack that lacan mentions?
         </p>
 
         <p>
