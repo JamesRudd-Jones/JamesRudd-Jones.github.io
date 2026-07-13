@@ -66,24 +66,23 @@ const WritingPageDubstepLack = () => {
 
         <p>
           To summarise so far, we have introduce the Lacanian viewpoints on lack and desire and some of the relevant notions and geometry.
-          maybe more of a detailed summary
-          To further the latter we will discuss below the role of fantasy.
+          Lack stemming from the integration of the subject into the symbolic order and the constant gap this creates, the notion of our object-cause of desire xxx, and the central void this entails or something - maybe more 
+          of a detailed summary here.
+          To further expound on desire and the geometry? we will discuss below the role of fantasy.
           Although the <Emph>objet petit a</Emph> is a shared experience amongst all, there are still idiosyncracies in individual expressions of desire — we each have unique histories and trajectories that shape our own <Emph>objet petit a</Emph>.
           For Lacan, fantasy is a mechanism that enables a subject to uncconsiously relate certain features or bounds to the object-cause of our desires.
           The act of fantasising is not purely to satisfy a demand that is unachievable in reality perhaps, but instead the bounds of the fantasy are instead tightly related to the bounds of our desire.
+          What I mean by the before is that xxx.
+          some line linking to the next section about the void and visualisation of the void in fantasy perhaps or at least regarding the language that is typically used to describe it.
+          some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around, maybe a quote from my fave book yeyo !
+          Lacan gives examples of this in pottery and architecture: both being ancient practicies that we as humans have always relied on and both an empty or hollow space that one creates around.  
+          maybe a final wrap up line about the geometry and stuff be good
         </p>
 
         <p>
           To return to my original question, but now with some machinery to perhaps help answer it, I ask: what does the fantasy created by the aformentioned music xxx and why does it xxx?
           Whilst a very personal question, it is also not unique; much of the music I enjoy, albeit not chart topping, is enjoyed by many others.
-
-
-
-          some line discussing the ever circling of the lack - think circling is an apt word here again for the general vibe of space in the centre and circling around !
-          Lacan gives examples of this in pottery and architecture: both being ancient practicies that we have always relied on and both an empty or hollow space that one creates around.  
-
-          What is the meaning of this space, and further my desire for such a space?
-          some circling of the lack that lacan mentions?
+          What is the meaning of this imaginary space, and further my desire for such a space?
         </p>
 
         <p>
@@ -95,7 +94,7 @@ const WritingPageDubstepLack = () => {
           For the former point what I mean is that there is some tension here.
           An artist requires sound to paint the picture of this space yet this in some senses fills up this void.
           Whilst time is left between notes and sounds and balancing this temporal space can also not be empty as the mental picture would fade.
-          Perhaps the <Emph>best songs tread this fine line carefully</Emph>.
+          Perhaps the best songs tread this fine line carefully.
           For the latter too in some way linked, is that many of these songs fill the space with noise and motion, is it perhaps some manic style defence against the emptiness of the void?
           More thoughts to be had here but there is perhaps something more.
 
@@ -107,7 +106,7 @@ const WritingPageDubstepLack = () => {
 
         <p>
           Thank you for reading my first foray into psychoanalytic writing.
-          These words are all my own, yet this topic may have been discussed somewhere else.
+          These words are all my own, yet this topic may have been discussed somewhere else that I have not seen.
           Please reach out for any questions, discussions, or comments!
         </p>
 
