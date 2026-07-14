@@ -23,7 +23,7 @@ const WritingPagePolachekDesire = () => {
           Caroline Polachek was introduced to me by my eldest sister, during a turbulet period in my life post a breakup with much time for recuperating and reflecting.
           Caroline has a wide array of musical styles within her work, but for me her ethereal tunes are the ones that I feel most drawn too (including some of her collaborations and features).
           Below I link some of my favourites.
-          During this difficult time her song "Hopedrunk Everasking" became my anthem (alongside "what's good - Oklou"), off the album "Desire, I Want To Turn Into You".
+          During this difficult time her song "Hopedrunk Everasking" became my elegy (alongside "what's good - Oklou"), off the album "Desire, I Want To Turn Into You".
           Not only her sonic compositions but her choice of words are very interesting and I feel there are many similar themes to what was discussed in my previous piece on dubstep, desire, and lack.
           So for this musing I will explore a pscyhoanalytical critique of Caroline Polachek focussing on her album "Desire, I Want To Turn Into You".
         </p>
