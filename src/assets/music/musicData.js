@@ -1,6 +1,9 @@
 // src/data/musicData.js
-import { whatsgoodPianoMeta } from './whats_good_piano/music_page-whats_good_piano';
-
 export const allMusics = [
-        whatsgoodPianoMeta,
-      ];
+  {
+    id: 'whats_good_piano',
+    title: "what's good - Oklou; Piano Cover",
+    abstract: 'Video of piano cover and sheet music.',
+    link: '/whats_good_piano',
+  },
+];

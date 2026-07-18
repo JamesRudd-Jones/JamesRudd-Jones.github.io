@@ -5,18 +5,10 @@ import ExpandableImage from '../../projects/ExpandableImage';
 // import VideoPlayer from '../VideoPlayer';
 import { writingContainer, Emph } from '../writingFonts';
 
-export const dubstepLackMeta = {
-  id: '0',
-  // title: 'On Dubstep Music, the Sonic Emulation of Large Spaces, and Intrinsic Human Lack',
-  title: "Title",
-  abstract: 'An intro.',
-  link: '/dubstep_lack',
-};
-
 const WritingPageDubstepLack = () => {
   return (
     <div>
-      <h1>{dubstepLackMeta.title}</h1>
+      <h1>Title</h1>
 
       <FullWidth style={writingContainer}>
         <p>

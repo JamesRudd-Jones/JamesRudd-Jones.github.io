@@ -5,25 +5,24 @@ import ExpandableImage from '../../projects/ExpandableImage';
 // import VideoPlayer from '../VideoPlayer';
 import { writingContainer, Emph } from '../writingFonts';
 
-export const polachekDesireMeta = {
-  id: '1',
-  title: 'Desire, I Want To Turn Into You',
-  // title: "Title 2",
-  abstract: 'A psychoanalytical critique of Caroline Polachek\'s album "Desire, I Want To Turn Into You".',
-  link: '/polachek_desire',
-};
-
 const WritingPagePolachekDesire = () => {
   return (
     <div>
-      <h1>{polachekDesireMeta.title}</h1>
+      <h1>Desire, I Want To Turn Into You</h1>
 
       <FullWidth style={writingContainer}>
         <p>
           Caroline Polachek was introduced to me by my eldest sister, during a turbulet period in my life post a breakup with much time for recuperating and reflecting.
           Caroline has a wide array of musical styles within her work, but for me her ethereal tunes are the ones that I feel most drawn too (including some of her collaborations and features).
-          Below I link some of my favourites.
-          During this difficult time her song "Hopedrunk Everasking" became my elegy (alongside "what's good - Oklou"), off the album "Desire, I Want To Turn Into You".
+          Here are some of my favourites:&nbsp;
+          <a href="https://www.youtube.com/watch?v=pilme9tCBJw" target="_blank" rel="noopener noreferrer">On The Beach</a>,&nbsp; 
+          <a href="https://www.youtube.com/watch?v=qd4gyWC3SzE" target="_blank" rel="noopener noreferrer">Fly To You (feat. Grimes and Dido)</a>,&nbsp;
+          <a href="https://www.youtube.com/watch?v=slsQJFHCSqw" target="_blank" rel="noopener noreferrer">Crude Drawing Of An Angel</a>,&nbsp;
+          <a href="https://www.youtube.com/watch?v=lUbfgRI8G38" target="_blank" rel="noopener noreferrer">Long Road Home</a>,&nbsp;
+          <a href="https://www.youtube.com/watch?v=Qa9qf4J9JpE" target="_blank" rel="noopener noreferrer">On & On</a>,&nbsp;
+          <a href="https://www.youtube.com/watch?v=6_09llPYwa4" target="_blank" rel="noopener noreferrer">Go As A Dream</a>.
+          During this difficult time her song "<a href="https://www.youtube.com/watch?v=c5RnQYDEapQ" target="_blank" rel="noopener noreferrer">Hopedrunk Everasking</a>" became 
+          my elegy (alongside "what's good - Oklou"), off the album "Desire, I Want To Turn Into You".
           Not only her sonic compositions but her choice of words are very interesting and I feel there are many similar themes to what was discussed in my previous piece on dubstep, desire, and lack.
           So for this musing I will explore a pscyhoanalytical critique of Caroline Polachek focussing on her album "Desire, I Want To Turn Into You".
         </p>
@@ -44,8 +43,18 @@ const WritingPagePolachekDesire = () => {
         </p> */}
 
         <p>
-          We start with the first point of contact with this album which is the title itself; which sets the scene for the themes everpresent throughout the album.
-          Initial point about what it means to become desire, what does that even mean or entail, why would one want to do this?
+          We start with the first point of contact with this album, the title itself, which sets the scene for the themes everpresent throughout the album.
+          Unlike my previous work, here I did some preliminary research on whether this topic had been discussed before, given how apt the album title was, but only came across some following reddit comments.
+          It feels a bit sacriligious to cite reddit given all my academic training but alas we are here.
+
+          For instance, user <a href="https://www.reddit.com/r/Carolinepolachek/comments/1aryalj/is_hopedrunk_everasking_carolines_most/" target="_blank" rel="noopener noreferrer">bxtorffggtte</a> states - ""Desire, I Want To Turn Into You” within 
+          itself is such a futile endeavour when taken to it's conclusion: first of all, you cannot become a feeling, and furthermore the feeling you want to become is unobtainable because you are wanting want. And once you have fulfilled 
+          that lack, you will no longer desire, thus losing what you wanted to become. It's this beautiful, heated cyclical passion. Which is why I love the title of this song so much. I don't know if these are portmanteaus she coined herself, or 
+          if they are references, but they spell out the idea of “desire, i want to turn into you” so well: being in a state of constant want, literally drunk on hope, and forever asking…so beautiful."
+          
+          So I mean whilst they haven't directly linked to Lacan himself they discuss much of his ideas, and further they again use this cylical geometrical language regarding desire and lack.
+          To dive into it in a bit more detail - Initial point about what it means to become desire, what does that even mean or entail, why would one want to do this?
+
           Further, the wording itself to me is very interesting; Caroline doesn't say "I want to become you" or anything along those lines but instead <Emph>I want to turn into you</Emph>.
           Harking back to some of the geometric aspects of lack and desire it there is some connection here.
           Turning into to me implies again some circling or orbiting, perhaps around this intrinsic lack and some more words here to explain what I mean; how one would turn into a corner whilst driving for example.
@@ -57,21 +66,7 @@ const WritingPagePolachekDesire = () => {
           More here perhaps.
           it's not I want to become you but its the act of turning into, can even have a diagramme here to signify my points hm
 
-          people are afraid of their desires and feeel bound by them so perhaps caroline wants to become it beacuse of some reasons need to think 
-
-          Unlike my previous work I actually did some preliminary research on whether this topic had been discussed before, given how apt the title was, but only came across some following reddit comments.
-          It feels a bit sacriligious to cite reddit given all my academic training but alas we are here.
-
-          """ 
-          "Desire, I Want To Turn Into You” within itself is such a futile endeavour when taken to it's conclusion: first of all, you cannot become a feeling, and furthermore the feeling you want to become is unobtainable 
-          because you are wanting want. And once you have fulfilled that lack, you will no longer desire, thus losing what you wanted to become. It's this beautiful, heated cyclical passion.
-
-          Which is why i love the title of this song so much. I don't know if these are portmanteaus she coined herself, or if they are references, but they spell out the idea of “desire, i want to turn into you” so well: being 
-          in a state of constant want, literally drunk on hope, and forever asking…so beautiful. "
-          """
-          reddit quote that feels pretty apt given the idea of this essay, interesting they again use this idea of a cyclical passion - is a sphere again innit
-
-          Not only spherical but they have basically described Lacan's views on desire without ever referencing his theories.
+          people are afraid of their desires and feeel bound by them so perhaps caroline wants to become it beacuse of some reasons need to think          
         </p>
 
         <p>
