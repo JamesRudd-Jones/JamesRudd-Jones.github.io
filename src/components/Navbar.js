@@ -23,7 +23,7 @@ const Navbar = () => {
       flexWrap: 'nowrap',             // Force it to stay on one line
       justifyContent: 'flex-start',   // Keep everything aligned to the Left-Hand Side
       // The gap shrinks from 25px down to a minimum of 5px based on screen width
-      gap: 'clamp(10px, 6%, 80px)',
+      gap: 'clamp(5px, 6%, 80px)',
       
     },
     navItem: {
@@ -34,7 +34,7 @@ const Navbar = () => {
       color: '#333',
       fontWeight: 'bold',
       // fontSize: "1.6em"
-      fontSize: "clamp(0.9em, 2.5vw, 1.6em)", 
+      fontSize: "clamp(1.2em, 1.7vw, 1.6em)", 
       padding: "5px 0px", 
       whiteSpace: 'nowrap',
     },
@@ -61,6 +61,9 @@ const Navbar = () => {
           </li> */}
           <li style={styles.navItem}>
             <Link to="/writings" style={styles.navLink}>Writings</Link>
+          </li>
+          <li style={styles.navItem}>
+            <Link to="/musics" style={styles.navLink}>Music</Link>
           </li>
         </ul>
       </div>

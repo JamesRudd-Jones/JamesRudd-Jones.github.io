@@ -4,19 +4,21 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 // import Talks from './components/Talks';
-// import Blog from './components/Blog';
 
 const Home = lazy(() => import('./components/Home'));
 const Publications = lazy(() => import('./components/Publications'));
 const Packages = lazy(() => import('./components/Packages'));
 const Projects = lazy(() => import('./components/Projects'));
 const Writings = lazy(() => import('./components/Writings'));
+const Musics = lazy(() => import('./components/Musics'));
 
 const ProjectPageWindChime1 = lazy(() => import('./assets/projects/wind_chime_1/project_page-wind_chime_1'));  // TODO can I make this better to import?
 const ProjectPageInternationalOneMetre1 = lazy(() => import('./assets/projects/iom_1/project_page-iom_1'));
 
 const WritingPageDubstepLack = lazy(() => import('./assets/writings/dubstep_lack/writing_page-dubstep_lack'));
 const WritingPagePolachekDesire = lazy(() => import('./assets/writings/polachek_desire/writing_page-polachek_desire'));
+
+const MusicPageWhatsGoodPiano = lazy(() => import('./assets/music/whats_good_piano/music_page-whats_good_piano')); 
 
 const importAll = (r) => r.keys().map(r);
 
@@ -130,9 +132,9 @@ function App() {
                 <Route path="/publications" element={<Publications />} />
                 <Route path="/packages" element={<Packages />} />
                 <Route path="/projects" element={<Projects />} />
-                <Route path="/projects" element={<Projects />} />
                 {/* <Route path="/talks" element={<Talks />} /> */}
                 <Route path="/writings" element={<Writings />} />
+                <Route path="/musics" element={<Musics />} />
 
                 {/* project page links below for Link routing */}
                 <Route path="/wind_chime_1" element={<ProjectPageWindChime1 />} />
@@ -141,6 +143,9 @@ function App() {
                 {/* writing page links below for Link routing */}
                 <Route path="/dubstep_lack" element={<WritingPageDubstepLack />} />
                 <Route path="/polachek_desire" element={<WritingPagePolachekDesire />} />
+
+                {/* music page links below for Link routing */}
+                <Route path="/whats_good_piano" element={<MusicPageWhatsGoodPiano />} />
 
               </Routes>
             </Suspense>

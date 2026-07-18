@@ -96,7 +96,7 @@ const Education = () => {
     {
       institution: 'University College London',
       degree: 'PhD Machine Learning',
-      thesis: "Reinforcement Learning for Chaotic and Non-Linear Dynamical Systems",
+      thesis: "Reinforcement Learning for Chaotic Dynamical Systems",
       supervisor: 'María Pérez-Ortiz and Mirco Musolesi',
       years: '2023 - Present',
       logoSrc: UCLLogo,
