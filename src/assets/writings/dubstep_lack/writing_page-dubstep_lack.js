@@ -1,8 +1,6 @@
 // src/assets/writings/dubstep_lack/writing_page-dubstep_lack.js
 import React from 'react';
-import { Row, Column, FullWidth } from '../../projects/ProjectLayout';
-import ExpandableImage from '../../projects/ExpandableImage';
-// import VideoPlayer from '../VideoPlayer';
+import { FullWidth } from '../../projects/ProjectLayout';
 import { writingContainer, Emph } from '../writingFonts';
 
 const WritingPageDubstepLack = () => {
@@ -16,20 +14,20 @@ const WritingPageDubstepLack = () => {
           What I mean by this is that the musician through: instrument choices, notes and melodies, and production techniques creates a sense of vastness and space. 
           For me it conjures up images in my mind of a large, dark, cold, damp, empty space; something I am drawn to throughout many a genre.
           Below I have linked songs that evoke this imagery in certain genres: Dubstep, xxx, xxx, xxx
-          Yet, I have never been in such a space and have no tangible or tactile experience with one; why is it something I long for and can create a mental image of, what emotions are attached to such a physical manifestation?
-          maybe is this untrue, have been in huge concert halls I guess but idk if it is the same thing perhaps.
-          The largeness and emptiness perhaps being clearer than why dark, cold, and damp as well?
+          Yet, I have never really been in such a space and have no tangible or tactile experience with one; why is it something I long for and can create a mental image of, what emotions are attached to such a physical manifestation?
+          maybe is this untrue, have been in huge concert halls I guess but idk if it is the same thing perhaps and maybe visited a cave before.
+          The largeness and emptiness perhaps being clearer than why dark, cold, and damp as well.
         </p>
 
         <p>
-          With my own journey in psychodynamic therapy and exploring psychanalytic literature (sadly I cannot yet afford an intesive analysis), I have felt the urge to create in this space and this will be my starting point to 
+          With my own journey in psychodynamic therapy and exploring psychanalytic literature (sadly I cannot yet afford a true analysis), I have felt the urge to create in this space and this will be my starting point to 
           use pscyhoanalytic concepts to deepen an understanding of this personal (and perhaps societal) phenomenon.
           As my first piece of non-empirical or quantitatively driven writing given my historical propensity for STEM it may be a messy or unclear read but bare with me.
         </p>
 
         <p>
           We begin with the French psychoanalyst <Emph>Jacques Lacan</Emph> for this discussion.
-          There is much discourse about Lacan's views, which is not something I cover here (especially as his will is for the return to Freud), but I use his following ideas in support of my argument.
+          There is much discourse about Lacan's views, which is not something I am able to cover here, but I use his following ideas in support of my argument.
           Lacan states that in our time as children we are bestowed with a fundamental absence — defined generally as lack, but in more depth as a <Emph>lack of being</Emph> or a <Emph>want to be</Emph> in order to separate it from material 
           or biological lack — formed as we develop from our initial era of omnipotence to a state where we must insert ourselves into language and society in order to communicate with the other.
           Further important Lacan terminology is that of the <Emph>signifier</Emph> and the <Emph>symbolic order</Emph>.
@@ -38,7 +36,7 @@ const WritingPageDubstepLack = () => {
           Given the aforementioned defintions, for Lacan the intrinsic lack stems from the facts that no signifier is able to fully represent the subject, and further because the symbolic order itself is incomplete, something is always missing. 
           Language functions as providing subjective signifiers that further only point or relate to other signifiers and can never really fully convey ones's internal experience.
           Recovering this missing element is impossible as it is not an object but a structural condition (it's not X it's Y thanks chatgpt), thus leading to a constitutive gap or lack that conditions one's subjectivity. 
-          In more words of what I mean by conditioning subjectivity, is thatzl
+          In more words of what I mean by conditioning subjectivity, is that...
         </p>
 
         <p>
@@ -46,9 +44,9 @@ const WritingPageDubstepLack = () => {
           Lacan distinguishes between desire and demands, where typically one may conflate desire with demands.
           Desire is an unconscious drive whereas demands are conscious and can easily be articulated or met.
           An import concept is that of <Emph>Das Ding</Emph> or termed as <Emph>objet petit a</Emph> by Lacan later in his life; both left in their original languages as insisted by Lacan but translated to "the thing" and "object small o" 
-          respectively (where 'a' stands for for the French 'autre' meaning 'other').
+          respectively (where 'a' stands for the French 'autre' meaning 'other').
           For Lacan, <Emph>objet petit a</Emph> stands for the object-cause of desire — not something we desire but what creates desire itself.
-          It is not an actual object but rather a consitutive lack, it is the lost object that causes one to desire; perhaps a void or emptiness.
+          It is not an actual object but rather a consitutive lack, it is the lost object that causes one to desire: a void or emptiness.
           Some might say that desire is an ever circling around this central void, perhaps incarnating our unconcious beliefs of the <Emph>objet petit a</Emph> into real objects in an attempt to reduce our orbit.
           In this act we may hope to attain this missing part or return to our believed state of omnipotence that we experienced as infants; although this omnipotent era was only possible due to the support given by our initial caregivers.
           Much more could be said about these concepts and their interrelations but for now I will leave it there as a full analysis is outside the scope of this work.
@@ -73,16 +71,16 @@ const WritingPageDubstepLack = () => {
 
         <p>
           To return to my original question, but now with some machinery to perhaps help answer it, I ask: what does the fantasy created by the aformentioned music xxx and why does it xxx?
-          Whilst a very personal question, it is also not unique; much of the music I enjoy, albeit not chart topping, is enjoyed by many others.
           What is the meaning of this imaginary space, and further my desire for such a space?
-        </p>
+          Whilst a very personal question, it is also not unique; much of the music I enjoy, albeit sadly not chart topping, is enjoyed by many others.
+          I begin with geometry again; simply put, what I am imagining is a cavernous void.
+          Linking to Lacan's examples of pottery and architecture, in some senses the music is a sonic version of these tactile spaces.
+          Architects deal well with space, it can be said it is the primary object of their artistic work.
+          Musicians themselves curate a space too.
 
-        <p>
-          Further, senses of space incite loneliness and largness perhaps, is this relevant?
-        </p>
-
-        <p>
-          What is unique and interesting about this musical space to me is twofold: first, can the space ever truly be empty to be visualised; second, much of the enjoyment comes from how the space is filled.
+          not sure about below - in the sense that the image can be empty but how tightly does it relate to the music, we need the music to paint the picture of the space but is the music present in the fantasised space?
+          if not then the space could be empty in the mind, but if not then is the sound attempting to fill up this void or is it painting the edges of it?
+          However, what is unique and interesting about this musical space to me is twofold: first, can the space ever truly be empty to be visualised; second, much of the enjoyment comes from how the space is filled.
           For the former point what I mean is that there is some tension here.
           An artist requires sound to paint the picture of this space yet this in some senses fills up this void.
           Whilst time is left between notes and sounds and balancing this temporal space can also not be empty as the mental picture would fade.
@@ -97,7 +95,17 @@ const WritingPageDubstepLack = () => {
         </p>
 
         <p>
-          Thank you for reading my first foray into psychoanalytic writing.
+          Geometry aside, the other important fantasised facets are the darkness, coldness, and dampness.
+          Starting with coldness, we can see coldness as some distance, the word itself typically used to define someone at one end of an interpersonal dynamic without much connection or emotional warmth.
+          Perhaps some longing for closeness, this even relates still to the sense of space, vastness and largeness imply distance.
+          A physical manifestation perhaps of an emotional desire for being truly understood and transcending the limitations of the symbolic order.
+          The next two are much harder to clearly interpret.
+          I guess at a high level darkness and dampness are both things that are attributed to sorrow or sadness, yet I enjoy both greatly.
+          Those days of ethereal foggy dampness are beautiful and the darkness similarly so, but perhaps that is some desire with sadness idk need to think more about this one.
+        </p>
+
+        <p>
+          Thank you for reading my first foray into psychoanalytic inspired writing.
           These words are all my own, yet this topic may have been discussed somewhere else that I have not seen.
           Please reach out for any questions, discussions, or comments!
         </p>

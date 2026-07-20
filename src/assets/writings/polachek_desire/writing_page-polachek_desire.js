@@ -1,8 +1,6 @@
 // src/assets/writings/polachek_desire/writing_page-polachek_desire.js
 import React from 'react';
-import { Row, Column, FullWidth } from '../../projects/ProjectLayout';
-import ExpandableImage from '../../projects/ExpandableImage';
-// import VideoPlayer from '../VideoPlayer';
+import { FullWidth } from '../../projects/ProjectLayout';
 import { writingContainer, Emph } from '../writingFonts';
 
 const WritingPagePolachekDesire = () => {
@@ -28,7 +26,7 @@ const WritingPagePolachekDesire = () => {
         </p>
 
         <p>
-          We start with some background which may not be new to you if you are already an avid follower after only one piece but I expound below to be self contained!
+          Below houses some background which may not be new to you if you are already an avid follower after only one piece but I expound below to be self contained!
           intro lack and desire again and all this good stuff at a high level, perhaps refer to the previous piece but its nice to be self contained.
         </p>
 
@@ -44,34 +42,61 @@ const WritingPagePolachekDesire = () => {
 
         <p>
           We start with the first point of contact with this album, the title itself, which sets the scene for the themes everpresent throughout the album.
-          Unlike my previous work, here I did some preliminary research on whether this topic had been discussed before, given how apt the album title was, but only came across some following reddit comments.
+          Unlike my previous work, here I did some preliminary research on whether this topic had been discussed before, given how apt the album title was, but I only came across the following reddit comments.
           It feels a bit sacriligious to cite reddit given all my academic training but alas we are here.
 
-          For instance, user <a href="https://www.reddit.com/r/Carolinepolachek/comments/1aryalj/is_hopedrunk_everasking_carolines_most/" target="_blank" rel="noopener noreferrer">bxtorffggtte</a> states - ""Desire, I Want To Turn Into You” within 
-          itself is such a futile endeavour when taken to it's conclusion: first of all, you cannot become a feeling, and furthermore the feeling you want to become is unobtainable because you are wanting want. And once you have fulfilled 
-          that lack, you will no longer desire, thus losing what you wanted to become. It's this beautiful, heated cyclical passion. Which is why I love the title of this song so much. I don't know if these are portmanteaus she coined herself, or 
-          if they are references, but they spell out the idea of “desire, i want to turn into you” so well: being in a state of constant want, literally drunk on hope, and forever asking…so beautiful."
+          For instance, user <a href="https://www.reddit.com/r/Carolinepolachek/comments/1aryalj/is_hopedrunk_everasking_carolines_most/" target="_blank" rel="noopener noreferrer">bxtorffggtte</a> states - "“Desire, I Want To Turn Into You” 
+          within itself is such a futile endeavour when taken to it's conclusion: first of all, you cannot become a feeling, and furthermore the feeling you want to become is unobtainable because you are wanting want. And once you have 
+          fulfilled that lack, you will no longer desire, thus losing what you wanted to become. It's this beautiful, heated cyclical passion. "
           
           So I mean whilst they haven't directly linked to Lacan himself they discuss much of his ideas, and further they again use this cylical geometrical language regarding desire and lack.
           To dive into it in a bit more detail - Initial point about what it means to become desire, what does that even mean or entail, why would one want to do this?
+          people are afraid of their desires and feeel bound by them so perhaps caroline wants to become it beacuse of some reasons need to think    
 
-          Further, the wording itself to me is very interesting; Caroline doesn't say "I want to become you" or anything along those lines but instead <Emph>I want to turn into you</Emph>.
-          Harking back to some of the geometric aspects of lack and desire it there is some connection here.
-          Turning into to me implies again some circling or orbiting, perhaps around this intrinsic lack and some more words here to explain what I mean; how one would turn into a corner whilst driving for example.
-          If we stick with this orbiting analogy, although we are always circling we can never really turn into the object otherwise we are no longer orbiting and instead heading for collision.
-          Again this idea of collapsing her orbit into the <Emph>objet petit a</Emph> itself.
-          In an orbit you are never turning you are only travelling in a straight line, but the gravtiational pull of the object (small o haha) creates a circular movement.
-          Actually turning towards implies a crash or collision, some movement of the periapsis or the other word into a collision course with the surface of the object.
-          Also turning into again is into and not outo, although gramatically it has to be into to make any sense as turning outo is not clear, still it evokes some circular turning towards something 
-          More here perhaps.
-          it's not I want to become you but its the act of turning into, can even have a diagramme here to signify my points hm
-
-          people are afraid of their desires and feeel bound by them so perhaps caroline wants to become it beacuse of some reasons need to think          
+          Further, the wording itself to me is very interesting; Caroline doesn't say "I want to become/transform/etc you" or anything along those lines but instead <Emph>I want to turn into you</Emph>.
+          Harking back to some of the geometric aspects of lack and desire, turning into to me implies again some circling or orbiting, perhaps around this intrinsic lack that drives desire; for instance how one would turn into a 
+          corner whilst driving or perhaps you may turn (your body) into or towards someone during a conversation to feel closer to them.
+          If we stick with this orbiting analogy, although we are always circling the particle's force may be in a straight line, but the gravtiational pull of the object (small o ha) creates a circular movement.
+          If we turn into the object we almost imply a crash or collision, moving the periapsis into a collision course with the surface of the object.
+          Does she desire to collapse her orbit into the <Emph>objet petit a</Emph> itself, the object-cause of desire?
+          I include a diagramme for fun.      
         </p>
 
         <p>
-          We now turn towards my highlighted song from the album: "Hopedrunk Everasking" (and its kind of cousin "Coma" from the extended edition).
+          We now turn towards my highlighted song from the album: "Hopedrunk Everasking" (and its kind of cousin "Coma" from the extended edition).  # todo link the songs here as hyperlinks
           Again lots to unpack here.
+          Below I link the lyrics for completeness:
+          """
+          [Verse 1]
+          Starlight in the tunnel
+          Kind of familiar
+          Hopedrunk everasking
+          How does it feel to know
+          Your final form?
+          So old, so new
+
+          [Refrain]
+          Pull close to me and never be alone
+
+          [Verse 2]
+          Real life is a rumor
+          Under the theatre
+          Deeper, dig it deeper
+          'Til the meanwhile slows
+          They'll find our bones
+          And yet they won't
+
+          [Refrain]
+          Pull close to me and never be alone
+
+          [Verse 3]
+          Dawn is just a headspace
+          Night is a feeling
+          Hopedrunk everasking
+          Centuries come and go
+          Thеy'll find our bones
+          And yet they won't
+          """
 
           is jouissance relevant here at all, the ever needing for more, kind of in the title hopedrunk everasking, is that a form of jouissance?
 
@@ -85,6 +110,7 @@ const WritingPagePolachekDesire = () => {
 
           https://stuyspec.com/article/when-wanting-isnt-enough
           https://carolinepolachek.fandom.com/wiki/Hopedrunk_Everasking
+          https://genius.com/Caroline-polachek-hopedrunk-everasking-lyrics  - good qanda from caroline herself and also released on valenties day eyo
 
           discuss the sound of the firealarm and then the hospital beep in coma - is there a link between them to some unconcious coma vibe and the dream state in the tunnel?
 
@@ -94,8 +120,11 @@ const WritingPagePolachekDesire = () => {
         </p>
 
         <p>
-          The track opener titled "Welcome to My Island" is also an interesting idea.
-          Caroline moves the listener to this space she has created, a playful area and perhaps a transitional space to quote my boy Winnicott.
+          The track opener titled "Welcome to My Island" is also an interesting idea. # todo link the song here again
+          Caroline moves the listener to this space she has created, referred to as "my island", perhaps a playful area and perhaps even a transitional space to quote my boy Winnicott.
+          She states "Hope you like me, you ain't leaving" and then proceeds with "Desire, I wanna Turn Into You".
+          Her final verse is the most relevant.
+          She brings up a conversation with her father that initially boosts her and then denigrates her in Caroline's words from interviews that he didn't like her work or something
           In this space are we able to explore in detail our own desires and fantasies in relation to the other or something.
           more here
         </p>

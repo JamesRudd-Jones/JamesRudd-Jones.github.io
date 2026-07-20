@@ -1,7 +1,7 @@
 // src/assets/music/whats_good_piano/music_page-whats_good_piano.js
 import React from 'react';
 import { Row, Column, FullWidth } from '../../projects/ProjectLayout';
-import ExpandableImage from '../../projects/ExpandableImage';
+// import ExpandableImage from '../../projects/ExpandableImage';
 // import VideoPlayer from '../VideoPlayer';
 
 export const whatsgoodPianoMeta = {
