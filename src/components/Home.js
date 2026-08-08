@@ -76,7 +76,7 @@ const Home = () => {
             <div style={styles.aboutMe}>
               {/* <h3>About Me</h3> */}
               <p style={styles.largerFont}>
-                Hi, I am a third year PhD student in Machine Learning at UCL supervised 
+                Hi, I am a fourth year PhD student in Machine Learning at UCL supervised 
                 by <a href="https://www.mariaperezortiz.com/" target="_blank" rel="noopener noreferrer">María Pérez-Ortiz</a> and <a href="https://www.mircomusolesi.org/" target="_blank" rel="noopener noreferrer">Mirco Musolesi</a> as 
                 part of the <a href="https://www.sml-group.cc/" target="_blank" rel="noopener noreferrer">Sustainability and Machine Learning Group</a>. 
                 <br></br> <br></br>
