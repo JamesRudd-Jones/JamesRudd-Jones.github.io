@@ -59,7 +59,13 @@ const WritingPagePolachekDesire = () => {
           If we stick with this orbiting analogy, although we are always circling the particle's force may be in a straight line, but the gravtiational pull of the object (small o ha) creates a circular movement.
           If we turn into the object we almost imply a crash or collision, moving the periapsis into a collision course with the surface of the object.
           Does she desire to collapse her orbit into the <Emph>objet petit a</Emph> itself, the object-cause of desire?
-          I include a diagramme for fun.      
+          I include a diagramme for fun.   
+
+          Further, desire I want to turn into you is almost a conversation or request in some ways, it is not desire I am you, or desire I turned into you etc
+          But it feels more like a question or a statement with openness or a longing within itself.
+          Asking permission to what to beome desire
+          Desiring to become desire etc
+          Shows some hesitation perhaps as well as its a wish but not one that she perhaps wants to actually carry out but only discuss or fantasise about   
         </p>
 
         <p>
