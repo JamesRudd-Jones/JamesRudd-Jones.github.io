@@ -31,7 +31,7 @@ const ProjectPageInternationalOneMetre1 = () => {
 
       <Row>
         <Column width="40%">
-          <ExpandableImage src={mainPhoto} alt="The Outer Fibreglassed Hull"  caption="The Outer Fibreglassed Hull; Note the beautiful knurling towards the fore of the boat." />
+          <ExpandableImage src={mainPhoto} alt="The Outer Fibreglassed Hull"  caption="The Outer Fibreglassed Hull; Note the beautiful burls towards the fore of the boat." />
         </Column>
         <Column width="55%">
           <p style={{marginTop: '0'}}>
@@ -65,7 +65,7 @@ const ProjectPageInternationalOneMetre1 = () => {
         <p>
           Finding apt materials was a bit of a challenge, but I stumbled across the following 
           <a href="https://cedar-strip.co.uk/model_boats.html#content6-ay" target="_blank" rel="noopener noreferrer"> website</a> that provides Cedar strip planks sized for model yachts.
-          I went for the 3mm x 10mm x 1200mm planks and luckily received a set with some beautiful knurling on one half of each plank which I have "mostly" aligned for a nice effect (after I had laid the first plank
+          I went for the 3mm x 10mm x 1200mm planks and luckily received a set with some beautiful burls on one half of each plank which I have "mostly" aligned for a nice effect (after I had laid the first plank
           I realised this was the case: the port gunwhale is the wrong way around).          
         </p>
 
@@ -127,7 +127,7 @@ const ProjectPageInternationalOneMetre1 = () => {
           <ExpandableImage src={onePhoto} alt="Pure Forms" caption="The full set of forms (peek my AC37 glass!)" />
         </Column>
         <Column width="30%">
-          <ExpandableImage src={twoPhoto} alt="Early Fore of the Process" caption="The beautiful knurling!" />
+          <ExpandableImage src={twoPhoto} alt="Early Fore of the Process" caption="The beautiful burls!" />
         </Column>
         <Column width="30%">
           <ExpandableImage src={threePhoto} alt="Early Aft of the Process" caption="Early on using clamps and jigs" />
