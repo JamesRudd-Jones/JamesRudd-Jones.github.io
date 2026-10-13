@@ -56,15 +56,17 @@ const Navbar = () => {
           <li style={styles.navItem}>
             <Link to="/projects" style={styles.navLink}>Projects</Link>
           </li>
+
           {/* <li style={styles.navItem}>
             <Link to="/talks" style={styles.navLink}>TALKS</Link>
           </li> */}
-          <li style={styles.navItem}>
+
+          {/* <li style={styles.navItem}>
             <Link to="/writings" style={styles.navLink}>Writings</Link>
           </li>
           <li style={styles.navItem}>
             <Link to="/musics" style={styles.navLink}>Music</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
