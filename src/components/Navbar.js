@@ -61,9 +61,9 @@ const Navbar = () => {
             <Link to="/talks" style={styles.navLink}>TALKS</Link>
           </li> */}
 
-          {/* <li style={styles.navItem}>
+          <li style={styles.navItem}>
             <Link to="/writings" style={styles.navLink}>Writings</Link>
-          </li> */}
+          </li>
           {/* <li style={styles.navItem}>
             <Link to="/musics" style={styles.navLink}>Music</Link>
           </li> */}
