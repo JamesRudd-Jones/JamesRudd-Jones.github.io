@@ -40,6 +40,7 @@ export const allPackages = [
           title: 'RL 2D Sailing',
           abstract: "A basic 2D sailing environment using RL to control a sailboat round the course. The environment is designed to be simple and easy to use with much scope for improvement.",
           codeLink: 'https://github.com/JamesRudd-Jones/Reinforcement-Learning-2d-Sailing',
-          image: require('../images/better_one_2.gif'),
+          // image: require('../images/better_one_2.gif'),
+          image: require('../images/better_one_2.webp'),
         },
       ];

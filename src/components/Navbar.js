@@ -63,8 +63,8 @@ const Navbar = () => {
 
           {/* <li style={styles.navItem}>
             <Link to="/writings" style={styles.navLink}>Writings</Link>
-          </li>
-          <li style={styles.navItem}>
+          </li> */}
+          {/* <li style={styles.navItem}>
             <Link to="/musics" style={styles.navLink}>Music</Link>
           </li> */}
         </ul>

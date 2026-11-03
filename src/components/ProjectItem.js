@@ -53,7 +53,7 @@ const ProjectItem = ({ indproject }) => {
     <div style={styles.container}>
       {indproject.image && (
         <div style={styles.imageContainer}>
-          <img src={indproject.image} alt={indproject.title} style={styles.image} />
+          <img src={indproject.image} alt={indproject.title} loading="lazy" style={styles.image} />
         </div>
       )}
       <div style={styles.textContainer}>

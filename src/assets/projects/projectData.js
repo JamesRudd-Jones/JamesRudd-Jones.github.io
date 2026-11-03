@@ -9,7 +9,8 @@ export const allProjects = [
         {
           title: 'Wind Chime Creation',
           abstract: "Step by step discussion of wind chime creation, from design to finish. Includes a Python file to calculate the lengths of tubes for desired musical notes.",
-          image: require('./wind_chime_1/images/wind_chimes.gif'), 
+          // image: require('./wind_chime_1/images/wind_chimes.gif'),
+          image: require('./wind_chime_1/images/wind_chimes.webp'),
           link: "/wind_chime_1",
         },
       ];

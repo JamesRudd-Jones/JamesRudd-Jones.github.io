@@ -13,7 +13,7 @@ export const writingContainer = {
 
 export const Emph = ({ children }) => {
   const textLength = typeof children === 'string' ? children.length : 0;
-  
+
   const marginAdjustment = `-${textLength * 0.06}em`;
 
   const style = {
@@ -27,6 +27,7 @@ export const Emph = ({ children }) => {
     fontWeight: 400,
 
     display: "inline-block",
+    lineHeight: 0, // stops the italic font changing the height of the line
     transform: "scaleX(0.85)",
 
     transformOrigin: "left bottom",

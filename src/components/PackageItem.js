@@ -52,7 +52,7 @@ const PackageItem = ({ indpackage }) => {
     <div style={styles.container}>
       {indpackage.image && (
         <div style={styles.imageContainer}>
-          <img src={indpackage.image} alt={indpackage.title} style={styles.image} />
+          <img src={indpackage.image} alt={indpackage.title} loading="lazy" style={styles.image} />
         </div>
       )}
       <div style={styles.textContainer}>

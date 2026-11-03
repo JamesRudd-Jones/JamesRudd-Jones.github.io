@@ -80,7 +80,7 @@ const PublicationItem = ({ publication, highlightName }) => {
     <div style={styles.container}>
       {publication.image && (
         <div style={styles.imageContainer}>
-          <img src={publication.image} alt={publication.title} style={styles.image} />
+          <img src={publication.image} alt={publication.title} loading="lazy" style={styles.image} />
         </div>
       )}
       <div style={styles.textContainer}>

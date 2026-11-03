@@ -31,11 +31,12 @@ function App() {
   // const PercentDiffMiddle = "75%";
   const PercentDiffMiddle = isMobile ? "100%" : "77%";
   const resultantMaxWidth = parseFloat(MaxWidthPage) * parseFloat(PercentDiffMiddle) / 100;
-  const [currentBg, setCurrentBg] = useState(backgroundImages[0]);
+  // const [currentBg, setCurrentBg] = useState(backgroundImages[0]);
+  const [currentBg] = useState(() => backgroundImages[Math.floor(Math.random() * backgroundImages.length)]);
 
   useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * backgroundImages.length);
-    setCurrentBg(backgroundImages[randomIndex]);
+    // const randomIndex = Math.floor(Math.random() * backgroundImages.length);
+    // setCurrentBg(backgroundImages[randomIndex]);
 
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);

@@ -4,6 +4,14 @@ import sharp from 'sharp';
 
 const BUILD_DIR = './build';
 
+const MAX_WIDTH = 1800; // Matches the maximum page width in App.js
+const THUMBNAIL_MAX_WIDTH = 600;
+const QUALITY = 75;
+const BACKGROUND_QUALITY = 60; // Backgrounds sit mostly behind the translucent overlay
+
+const BACKGROUND_PATTERN = /^(PXL|DSC)_/;
+const THUMBNAIL_PATTERN = /^(profile_image_4_website|multi_agents_perhaps|wind_chime_length)\./;
+
 // Recursively find all files in the build output
 function getAllFiles(dirPath, arrayOfFiles = []) {
   const files = fs.readdirSync(dirPath);
@@ -38,14 +46,38 @@ async function optimiseImages() {
     const ext = path.extname(file).toLowerCase();
 
     try {
-      let pipeline = sharp(file);
+      const name = path.basename(file);
+
+      // Re-encoding without the animated option would flatten these to one frame
+      const { pages } = await sharp(file).metadata();
+      if (pages > 1) {
+        console.log(`- ${path.relative(BUILD_DIR, file)}: Skipped, animated`);
+        continue;
+      }
+
+      const maxWidth = THUMBNAIL_PATTERN.test(name) ? THUMBNAIL_MAX_WIDTH : MAX_WIDTH;
+      const quality = BACKGROUND_PATTERN.test(name) ? BACKGROUND_QUALITY : QUALITY;
+
+      // Old pipeline, swap with the lines below to compare
+      // let pipeline = sharp(file);
+      //
+      // if (ext === '.jpg' || ext === '.jpeg') {
+      //   pipeline = pipeline.jpeg({ quality: 75, mozjpeg: true });
+      // } else if (ext === '.png') {
+      //   pipeline = pipeline.png({ quality: 75, compressionLevel: 8 });
+      // } else if (ext === '.webp') {
+      //   pipeline = pipeline.webp({ quality: 75 });
+      // }
+
+      // rotate() applies the EXIF orientation, which would otherwise be lost on re-encoding
+      let pipeline = sharp(file).rotate().resize({ width: maxWidth, withoutEnlargement: true });
 
       if (ext === '.jpg' || ext === '.jpeg') {
-        pipeline = pipeline.jpeg({ quality: 75, mozjpeg: true });
+        pipeline = pipeline.jpeg({ quality, mozjpeg: true });
       } else if (ext === '.png') {
-        pipeline = pipeline.png({ quality: 75, compressionLevel: 8 });
+        pipeline = pipeline.png({ quality, compressionLevel: 8 });
       } else if (ext === '.webp') {
-        pipeline = pipeline.webp({ quality: 75 });
+        pipeline = pipeline.webp({ quality });
       }
 
       // Read to buffer first so we can safely overwrite the source file
